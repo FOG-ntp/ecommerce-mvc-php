@@ -433,7 +433,7 @@
 	background-color: #fff
 }
 body, .font-text, .menu-item-register .create-account-link, .menu-label, .widgetarea-mobile .widget_currency_sel_widget .widget-title, .widgetarea-mobile .widget_icl_lang_sel_widget .widget-title, .wpb-js-composer .vc_tta.vc_general.vc_tta-style-classic.vc_tta-accordion .vc_tta-panel-title, .woodmart-more-desc table th, .product-image-summary .shop_attributes th, .woocommerce-product-details__short-description table th {
-	font-family: Lato, Arial, Helvetica, sans-serif
+	font-family: Roboto, Arial, Helvetica, sans-serif
 }
 .font-primary, table th, .page-title .entry-title, .masonry-filter li, .widget_rss ul li>a, .woodmart-price-table .woodmart-plan-title, .wpb-js-composer .vc_tta.vc_general.vc_tta-style-classic.vc_tta-tabs .vc_tta-tab>a, .woodmart-sizeguide-table tr:first-child td, .tabs-layout-tabs .tabs li, .woodmart-accordion-title, .woodmart-checkout-steps ul, .woocommerce-billing-fields>h3, .woocommerce-shipping-fields>h3, .woocommerce-additional-fields>h3, #ship-to-different-address label, #order_review_heading, .cart-totals-inner h2, .wood-login-divider, .woocommerce-MyAccount-title, header.title>h3, .woocommerce-column__title, .compare-field, .compare-value:before, .compare-basic .compare-value:before, .woodmart-wishlist-title, .woodmart-empty-page, .woodmart-products-tabs .tabs-name, .woodmart-products-tabs .products-tabs-title, .wishlist-title h2, #order_payment_heading, h1, h2, h3, h4, h5, h6, .title, legend, .woocommerce-Reviews .comment-reply-title, .menu-mega-dropdown .sub-menu>li>a, .mega-menu-list>li>a {
 	font-family: Poppins, Arial, Helvetica, sans-serif
@@ -442,7 +442,7 @@ body, .font-text, .menu-item-register .create-account-link, .menu-label, .widget
 	font-family: Poppins, Arial, Helvetica, sans-serif
 }
 .font-alt {
-	font-family: Lato, Arial, Helvetica, sans-serif;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
 	font-weight: 400
 }
 .widgettitle, .widgettitle a, .widget-title, .widget-title a {
@@ -450,7 +450,7 @@ body, .font-text, .menu-item-register .create-account-link, .menu-label, .widget
 	font-weight: 600
 }
 .main-nav-style, .menu-opener, .categories-menu-dropdown .item-level-0>a, .wd-tools-element .wd-tools-text, .main-nav .item-level-0>a, .whb-secondary-menu .item-level-0>a, .full-screen-nav .item-level-0>a, .wd-tools-element .wd-tools-count, .woodmart-cart-design-2 .woodmart-cart-number, .woodmart-cart-design-5 .woodmart-cart-number {
-	font-family: Lato, Arial, Helvetica, sans-serif;
+	font-family: Roboto, Arial, Helvetica, sans-serif;
 	font-weight: 700;
 	font-size: 13px
 }
