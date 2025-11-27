@@ -8,14 +8,14 @@
 	            <div class="textwidget">
 	              	<div class="footer-logo" style="max-width: 80%; margin-bottom: 10px;">
 	                	<a href="?act=home" class="woodmart-logo woodmart-main-logo" rel="home"> 
-	                    	<img src="public/images/logo_tvd.png" alt="TD SHOP" style="max-width: 245px;"> 
+	                    	<img src="public/images/logo.png" alt="TD SHOP" style="max-width: 245px;"> 
 	                	</a>
 	              </div>
-	              <p>Shop Thời Trang TDShop chúng tôi không đơn thuần là cái đẹp thời trang, chúng tôi khao khát kiến tạo những giá trị xã hội nhân văn, trở thành một lối sống để đồng hành cùng phụ nữ trên hành trình thấu cảm vẻ đẹp của chính mình.</p>
+	              <p>J-P Fashion là thương hiệu thời trang nữ phong cách đa dạng với hàng nghìn mẫu thiết kế. Nơi các xu hướng thời trang trên thế giới được cập nhật mỗi ngày.</p>
 	              	<div style="line-height: 2;">
-		                <i class="fa fa-location-arrow" style="width: 15px; text-align: center; margin-right: 4px; color: #676767;"></i> An Khê, Gia Lai<br>
+		                <i class="fa fa-location-arrow" style="width: 15px; text-align: center; margin-right: 4px; color: #676767;"></i> Ngũ Hành Sơn, Đà Nẵng<br>
 		                <i class="fa fa-mobile" style="width: 15px; text-align: center; margin-right: 4px; color: #676767;"></i> Điện thoại: 0123.456.789<br>
-		                <i class="fa fa-envelope-o" style="width: 15px; text-align: center; margin-right: 4px; color: #676767;"></i> Email: TDshop@gmail.com
+		                <i class="fa fa-envelope-o" style="width: 15px; text-align: center; margin-right: 4px; color: #676767;"></i> Email: JPfashion@gmail.com
 	            	</div>
 	            </div>
 	        </section>
@@ -65,10 +65,8 @@
     	<div class="container">
         	<div class="min-footer">
           		<div class="col-left reset-mb-12"> 
-              		<small>Copyright © 2021 TD SHOP</small>
-         
-      			</div>
-           
+              		<small>Copyright © 2025 J-P Fashion. All rights reserved.</small>
+      				</div>
         	</div>
     	</div>
 	</div>        

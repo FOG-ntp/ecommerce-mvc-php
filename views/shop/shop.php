@@ -9,8 +9,8 @@
 		        	<div id="wle-header-slider-l" class="col-12 col-sm-12 col-lg-3" ></div>
 		            	<div id="wle-header-slider-r" class="col-12 col-sm-12 col-lg-9">
 		            		<div class="owl-carousel owl-carousel-quangcao owl-theme">
-							    <div class="item item_slidequangcao"><img src="public/images/quangcao2.png"  alt=""></div>
-							    <div class="item item_slidequangcao"><img src="public/images/quangcao1.png"  alt=""></div>
+							    <div class="item item_slidequangcao"><img src="public/images/quangcao1.jpg"  alt=""></div>
+							    <div class="item item_slidequangcao"><img src="public/images/quangcao2.jpg"  alt=""></div>
 							</div>
 			            </div>
 			       	</div>
@@ -42,7 +42,6 @@
 							<input type="hidden" name="paged" value="1">
 						</form> -->
 					</div>
-					
 				</div>
 
 				<div class="row">
@@ -69,7 +68,6 @@
 							
 						</form>
 						<?php require_once("categories_left.php") ?>
-
 					</div>
 
 					<div class="col-sm-9">
@@ -130,10 +128,7 @@
 							?>
 					    </div>
 					</div> -->
-
-			
 					<!-- end menu chuyển trang -->
-
 					</div>
 					
 				</div>

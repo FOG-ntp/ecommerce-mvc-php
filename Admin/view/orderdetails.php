@@ -16,7 +16,7 @@ if(isset($_GET['orderID']) || $_GET['orderID']!=NULL){
                     </div>
             </div>
             <div class="col-sm-10">
-                <h3>Cửa hàng thời trang trực tuyến TVD Fashion</h3>
+                <h3>Cửa hàng thời trang trực tuyến J-P Fashion</h3>
                 <span>Địa chỉ: 470 Trần Đại Nghĩa, phường Hòa Hải, quận Ngũ Hành Sơn, Đà Nẵng</span>
                 <p>Số điện thoại: 0373377580</p>
             </div>

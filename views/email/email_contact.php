@@ -23,7 +23,7 @@ if (isset($_POST)) {
 		$tieude = $_POST['contact_subject'];
 
         $to = "nmdien.20it12@vku.udn.vn";
-        $to_name = "Quản trị viên TVDShop";
+        $to_name = "Quản trị viên J-P Fashion";
         $mail->addAddress($to, $to_name);//mail và tên người nhận
 
         $mail->isHTML(true);  // Set email format to HTML

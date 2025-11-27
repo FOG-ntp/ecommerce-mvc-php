@@ -9,8 +9,8 @@
 		        	<div id="wle-header-slider-l" class="col-12 col-sm-12 col-lg-3" ></div>
 		            	<div id="wle-header-slider-r" class="col-12 col-sm-12 col-lg-9">
 		            		<div class="owl-carousel owl-carousel-quangcao owl-theme">
-							    <div class="item item_slidequangcao"><img src="public/images/quangcao1.png"  alt=""></div>
-							    <div class="item item_slidequangcao"><img src="public/images/quangcao2.png"  alt=""></div>
+							    <div class="item item_slidequangcao"><img src="public/images/quangcao1.jpg"  alt=""></div>
+							    <div class="item item_slidequangcao"><img src="public/images/quangcao2.jpg"  alt=""></div>
 							</div>
 			            </div>
 		       	</div>
@@ -23,9 +23,9 @@
         	<!-- Title -->
                 <div class="title-wrapper  woodmart-title-color-default woodmart-title-style-default woodmart-title-width-100 text-center woodmart-title-size-medium ">
                     <div class="liner-continer">
-                    	<span class="left-line"></span>
+                    	<!-- <span class="left-line"></span> -->
                     	<h4 class="wle-upper woodmart-title-container title  woodmart-font-weight-">Sản phẩm mới</h4>
-                    	<span class="right-line"></span>
+                    	<!-- <span class="right-line"></span> -->
                     </div>
                 </div>
     		</div>
@@ -97,9 +97,9 @@
         	<!-- Title -->
                 <div class="title-wrapper  woodmart-title-color-default woodmart-title-style-default woodmart-title-width-100 text-center woodmart-title-size-medium ">
                     <div class="liner-continer">
-                    	<span class="left-line"></span>
+                    	<!-- <span class="left-line"></span> -->
                     	<h4 class="wle-upper woodmart-title-container title  woodmart-font-weight-">Sản phẩm nổi bật</h4>
-                    	<span class="right-line"></span>
+                    	<!-- <span class="right-line"></span> -->
                     </div>
                 </div>
     		</div>
@@ -277,18 +277,18 @@
     	</section>
 
     	<div class="container">
-    		<div class="row" style="margin:  5%;">
+    		<div class="row" style="margin: 5%;">
     			<div class="col-12">
     				<div class="owl-carousel owl-carousel-tintuc owl-theme">
 			    		<div class="item item_cardtintuc">
 			    			<div class="card card_tintuc" >
-			  					<img src="public/images/tintuc1.png" class="card-img-top img_tintuc" alt="...">
+			  					<img src="public/images/tintuc1.jpg" class="card-img-top img_tintuc" alt="...">
 			  					<div class="day_tintuc">
-			  						<span>24 <br> TH8</span>
+			  						<span>20 <br>T11</span>
 			  						
 			  					</div>
 		  						<div class="card-body">
-								    <h5 class="card-title title_card">Tiềm năng của ngành kinh doanh thời trang</h5>
+								    <h5 class="card-title title_card">Các loại vải trong thời trang</h5>
 								    <p class="card-text">
 								    	Đăng bởi : 
 								    	<span>
@@ -297,10 +297,10 @@
 											  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
 											</svg>
 								    	</span>
-								    	Minh Diện
+								    	Bảo Cầm
 								    </p>
 								    <p class="card-text">
-								    	Thời trang luôn được biết đến là một trong những ngành hàng kinh doanh chiếm thị phần lớn nhất hiện nay bởi nhu cầu cũng như xu hướng thay đổi từng ngày...
+								    	Thời trang và chất liệu luôn luôn song hành với nhau. Việc hiểu rõ về các loại vải chính là chìa khóa để chọn trang phục ưng ý, vừa thoải mái lại hợp mốt. ...
 								    </p>
 								    <a href="#" class="btn btn-primary">Chi Tiết</a>
 							  </div>
@@ -308,13 +308,13 @@
 			    		</div>
 			    		<div class="item item_cardtintuc">
 			    			<div class="card card_tintuc" >
-			  					<img src="public/images/tintuc2.jpg" class="card-img-top img_tintuc" alt="...">
+			  					<img src="public/images/tintuc2.png" class="card-img-top img_tintuc" alt="...">
 			  					<div class="day_tintuc">
-			  						<span>24 <br> TH8</span>
+			  						<span>20 <br> T11</span>
 			  						
 			  					</div>
 		  						<div class="card-body">
-								    <h5 class="card-title title_card">Kiểu giày làm thon chân</h5>
+								    <h5 class="card-title title_card">Nguồn gốc và ứng dụng của vải tweed</h5>
 								    <p class="card-text">
 								    	Đăng bởi :
 								    	<span>
@@ -323,10 +323,10 @@
 											  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
 											</svg>
 								    	</span>
-								    	Minh Diện
+								    	Bảo Cầm
 								    </p>
 								    <p class="card-text">
-								    	Những đôi giày có tông màu nude nhẹ nhàng phù hợp với chị em theo đuổi phong cách nữ tính. Gam màu trung tính dễ phối, có thể kết hợp cùng mọi màu sắc...
+								    	V ải Tweed là một chất liệu thời trang cổ điển đã xuất hiện và duy trì sức hút qua nhiều thế kỷ. Điều gì khiến vải Tweed trở thành biểu tượng của sự mạnh mẽ và sang trọng?...
 								    </p>
 								    <a href="#" class="btn btn-primary">Chi Tiết</a>
 							  </div>
@@ -334,13 +334,13 @@
 			    		</div>
 			    		<div class="item item_cardtintuc">
 			    			<div class="card card_tintuc" >
-			  					<img src="public/images/tintuc3.jpg" class="card-img-top img_tintuc" alt="...">
+			  					<img src="public/images/tintuc3.png" class="card-img-top img_tintuc" alt="...">
 			  					<div class="day_tintuc">
-			  						<span>24 <br> TH8</span>
+			  						<span>20 <br> T11</span>
 			  						
 			  					</div>
 		  						<div class="card-body">
-								    <h5 class="card-title title_card">Cô giáo Minh Thu ghi điểm nhờ những bộ cánh nhìn là mê</h5>
+								    <h5 class="card-title title_card">Vải Bamboo là gì và những đặc tính vượt trội</h5>
 								    <p class="card-text">
 								    	Đăng bởi :
 								    	<span>
@@ -349,10 +349,10 @@
 											  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
 											</svg>
 								    	</span>
-								    	Minh Diện
+								    	Bảo Cầm
 								    </p>
 								    <p class="card-text">
-								    	Với ngoại hình xinh xắn, giọng nói thu hút và cách truyền đạt dí dỏm, cô giáo 9X này dường như phá bỏ mọi kỷ lục ở các lớp học livestream từng có tại Việt...
+								    	Vải bamboo đã xuất hiện từ lâu và ngày càng được ưa chuộng nhờ các đặc tính nổi bật như có độ bền cao, khá thông thoáng và thân thiện với môi trường. ...
 								    </p>
 								    <a href="#" class="btn btn-primary">Chi Tiết</a>
 							  </div>
@@ -366,13 +366,10 @@
 		<div class="logo_cuoitrangchu">
 			<hr >
 			<div class="owl-carousel owl-carousel-logo owl-theme">
-			    <div class="item item_logo"><a href="?act=nike"><img src="admin/upload/logonike.jpg"></a></div>
-			    <div class="item item_logo"><a href="?act=adidas"><img src="admin/upload/logoadidas.png"></a></div>
-			    <div class="item item_logo"><a href="?act=louis_vuitton"><img src="admin/upload/logolv.png"></a></div>
-			    <div class="item item_logo"><a href="?act=gucci"><img src="admin/upload/logogucci.jpg"></a></div>
-			    <div class="item item_logo"><a href="?act=hermes"><img src="admin/upload/logohermes.jpg"></a></div>
-			    <div class="item item_logo"><a href="?act=chanel"><img src="admin/upload/logochanel.png"></a></div>
-			    <div class="item item_logo"><a href="?act=versace"><img src="admin/upload/versace.png" ></a></div>
+			    <div class="item item_logo"><img src="admin/upload/canifa-logo.jpg"></a></div>
+			    <div class="item item_logo"><img src="admin/upload/yody-logo.jpg"></a></div>
+			    <div class="item item_logo"><img src="admin/upload/uniqlo-logo.jpg"></a></div>
+			    <div class="item item_logo"><img src="admin/upload/coolmate-logo.jpg"></a></div>
 			</div>
 		</div>
 	</div>

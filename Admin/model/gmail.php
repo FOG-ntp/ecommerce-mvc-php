@@ -38,7 +38,7 @@ $mail->Subject = $tieude;
 $noidungthu = ' <div class="card" style="width: 18rem;">
       <div class="card-body">
           <h5 class="card-title"><b>Xin chào ' . $to_name . '</b></h5>
-          <h5 class="card-subtitle mb-2 text-muted">Chúng tôi đến từ TVD Fashion</h5>
+          <h5 class="card-subtitle mb-2 text-muted">Chúng tôi đến từ J-P Fashion</h5>
           <p class="card-text">' . $_POST['repcontent'] . '</p>
       </div>
       </div> ';

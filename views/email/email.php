@@ -12,7 +12,7 @@ if (isset($_POST)) {
         $mail->SMTPAuth = true; // Enable authentication
         $nguoigui = 'minhdien678@gmail.com';
         $matkhau = '24082002';
-        $tennguoigui = 'Admin_TVD SHOP';
+        $tennguoigui = 'Admin_J-P_Fashion';
         $mail->Username = $nguoigui; // SMTP username
         $mail->Password = $matkhau;   // SMTP password
         $mail->SMTPSecure = 'ssl';  // encryption TLS/SSL 

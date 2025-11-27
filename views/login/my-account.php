@@ -8,7 +8,7 @@
                 </div>
                 <div class="col-sm-9">
                     <h2 align='center'>Thông tin cá nhân</h2>
-                    <div class="container" style="color:  #83b735;">
+                    <div class="container" style="color:  #000B58;">
                         <?php if (isset($_COOKIE['thaydoitt'])) {
                             echo $_COOKIE['thaydoitt'];
                          } ?>

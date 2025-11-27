@@ -109,7 +109,7 @@ background-color: #3C467B;
   top: 0px;
   left: 0px;
   /* font-size: 18px; */
-  border-radius: 0px;
+  border-radius: 14px;
   width: 100%;
   height: 300px;
 
@@ -120,7 +120,7 @@ background-color: #3C467B;
 .vitrianh{
   width: 100%;
   height: 300px;
-
+  border-radius: 14px;
 }
 .text_sanpham{
   text-align: center;
@@ -139,7 +139,6 @@ background-color: #3C467B;
 }
 
 .btn_add{
-
   left: 3%;
   position: relative;
   display: block;
@@ -148,6 +147,8 @@ background-color: #3C467B;
   color: white;
   transition: 0.6s;
   flex: start;
+  margin-left: 20px;
+  border-radius: 18px;
 }
 
 .anh_chinh{

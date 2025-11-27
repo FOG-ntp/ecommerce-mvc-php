@@ -31,7 +31,7 @@
 									  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
 									</svg>
 						    	</span>
-						    	Minh Diện
+						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
 						    	Thời trang luôn được biết đến là một trong những ngành hàng kinh doanh chiếm thị phần lớn nhất hiện nay bởi nhu cầu cũng như xu hướng thay đổi từng ngày...
@@ -57,7 +57,7 @@
 									  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
 									</svg>
 						    	</span>
-						    	Minh Diện
+						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
 						    	Những đôi giày có tông màu nude nhẹ nhàng phù hợp với chị em theo đuổi phong cách nữ tính. Gam màu trung tính dễ phối, có thể kết hợp cùng mọi màu sắc...
@@ -83,7 +83,7 @@
 									  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
 									</svg>
 						    	</span>
-						    	Minh Diện
+						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
 						    	Với ngoại hình xinh xắn, giọng nói thu hút và cách truyền đạt dí dỏm, cô giáo 9X này dường như phá bỏ mọi kỷ lục ở các lớp học livestream từng có tại Việt...
@@ -116,7 +116,7 @@
 									  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
 									</svg>
 						    	</span>
-						    	Minh Diện
+						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
 						    	Diện quần ngắn lộ túi kết hợp áo quây đi mua hoa quả, cô gái khoe khéo "điểm vàng" cơ thể hấp dẫn ánh nhìn...
@@ -142,7 +142,7 @@
 									  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
 									</svg>
 						    	</span>
-						    	Minh Diện
+						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
 						    	Kỳ Duyên, Trâm Anh “áp đảo” mọi khách mời tiệc cưới vì chiếc váy xẻ sâu hun hút...
@@ -168,7 +168,7 @@
 									  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
 									</svg>
 						    	</span>
-						    	Minh Diện
+						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
 						    	Mới đây, trào lưu đạp xe quanh hồ Tây được nhiều chị em hưởng ứng nhiệt tình. Nhiều cô gái thu hút sự chú ý không kém khi diện quần bó, ngắn tập thể dục...
@@ -200,7 +200,7 @@
 									  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
 									</svg>
 						    	</span>
-						    	Minh Diện
+						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
 						    	Seo Yoo A là "hot girl dược phẩm" được nhiều người biết đến trên mạng xã hội vì từng kinh doanh mặt hàng này. Không chỉ thế, cô còn là chủ của một thương hiệu may mặc riêng...
@@ -226,7 +226,7 @@
 									  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
 									</svg>
 						    	</span>
-						    	Minh Diện
+						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
 						    	Hot girl Hàng Châu chuộng mốt skinny jean "siêu bó", tạo cảm giác như "dính liền" trên da mà tôn dáng hiệu quả...
@@ -252,7 +252,7 @@
 									  <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8zm8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1z"/>
 									</svg>
 						    	</span>
-						    	Minh Diện
+						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
 						    	Du Uyên sinh năm 1993,  quê Thanh Hóa, nổi tiếng trong làng nhạc Việt với những ca khúc kết hợp với bạn trai cũ - Đạt G: Buông bàn tay thật nhanh, Về, Gói xôi vội và Đừng lo...

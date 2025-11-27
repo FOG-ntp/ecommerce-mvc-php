@@ -11,7 +11,7 @@
 	text-transform: uppercase;
 	display: block;
 	font-weight: 800;
-	color: #14b83d;
+	color: #000B58;
 	font-size: 16px;
 }
 	.about-text > p {margin-top: 25px;font-size: 15px;}
@@ -33,7 +33,7 @@
 }
 .share-member {padding: 20px 0;}
 .member-title > h4 {
-	font-family: "Roboto",serif;
+	font-family: "Montserrat",serif;
     font-size: 16px;
     font-weight: 550;
     margin-bottom: 15px;
@@ -55,7 +55,7 @@
     font-size: 16px;
     padding: 0 5px;
 }
-.member-btn > a:hover {color: #1da528;}
+.member-btn > a:hover {color: #000B58;}
 .member-btn > a,.pagnation-ul a{
     color: #999;
 }

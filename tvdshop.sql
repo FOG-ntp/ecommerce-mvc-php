@@ -47,8 +47,8 @@ CREATE TABLE `admin` (
 INSERT INTO `admin` (`AdminID`, `AdminName`, `AdminGender`, `AdminBrithday`, `AdminAddress`, `AdminPhone`, `AdminEmail`, `AdminUser`, `AdminPass`, `AdminImg`) VALUES
 (1, 'Đặng Ngọc Thư', '1', '21/04/2002', 'Gia Lai', '0373377580', 'dangngocthuak@gmail.com', 'admin', 'admin', 'dnthu21.jpg'),
 (2, 'Đặng Ngọc Thư', '1', '21/04/2002', 'Đà Nẵng', '0373377580', 'dnthu.20it1@vku.udn.vn', 'dnthu21', '21042002', 'dnthu21.jpg'),
-(46, 'Nguyễn Minh Diện', '1', '24/11/2021', 'Việt Name', '0373377580', 'dangngocthuak@gmail.com', 'nmdien123', '123456', 'Ban-u-M-i-Xu-t-Hi-n-Nike-AS-M-NK-Thrma-Sphr-Qu-n.jpg'),
-(47, 'Nguyễn Minh Diện', '1', '24/08/2002', 'Gia Lai', '0967468703', 'minhdien678@gmail.com', 'dienak', 'dienak', 'avtfb.jpg');
+(46, 'Nguyễn Bảo Cầm', '1', '24/11/2021', 'Việt Name', '0373377580', 'dangngocthuak@gmail.com', 'nmdien123', '123456', 'Ban-u-M-i-Xu-t-Hi-n-Nike-AS-M-NK-Thrma-Sphr-Qu-n.jpg'),
+(47, 'Nguyễn Bảo Cầm', '1', '24/08/2002', 'Gia Lai', '0967468703', 'minhdien678@gmail.com', 'dienak', 'dienak', 'avtfb.jpg');
 
 -- --------------------------------------------------------
 
@@ -156,7 +156,7 @@ INSERT INTO `contact` (`ContactID`, `FullName`, `Email`, `Title`, `Content`, `Co
 (2, 'Nguyễn Trọng Hải', 'nthaiak123@gmail.com', 'Vấn đề giao hàng', 'Hàng lâu vẫn chưa thấy về', '', '1'),
 (3, 'Nguyễn Văn A', 'dangngocthuak@gmail.com', 'Mua hang', '', '[value-6]', '1'),
 (4, 'Nguyễn Văn An', 'dangngocthuak@gmail.com', 'Mua hang', '', '[value-6]', '1'),
-(17, 'Nguyen Minh Diện', 'dangngocthuak@gmail.com', 'Tư vấn áo', 'giao hàng nhanh, tuyệt vời lắm shop ơi', '21:00 19-11-2021', '1'),
+(17, 'Nguyen Bảo Cầm', 'dangngocthuak@gmail.com', 'Tư vấn áo', 'giao hàng nhanh, tuyệt vời lắm shop ơi', '21:00 19-11-2021', '1'),
 (18, '', '', '', '', '18:10 26-11-2021', '1'),
 (19, '', '', '', '', '18:11 26-11-2021', '0'),
 (20, '', '', '', '', '18:11 26-11-2021', '0'),
@@ -189,7 +189,7 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`CustomerID`, `Fullname`, `Gender`, `Email`, `Address`, `Phonenumber`, `Username`, `Password`, `Position`, `Status`) VALUES
-(1, 'Nguyễn Minh Diện', '', 'minhdien678@gmail.com', 'Gia Lai', '0967468703', 'dienak', '53bd549a5c4f48943664d5cbec041390', 1, 1),
+(1, 'Nguyễn Bảo Cầm', '', 'minhdien678@gmail.com', 'Gia Lai', '0967468703', 'dienak', '53bd549a5c4f48943664d5cbec041390', 1, 1),
 (7, '', '', '', '', '', 'dienakdz', 'ec5b7bb469c50918455bed19a973d7c0', 1, 1),
 (9, 'Đặng Ngọc Thư', '1', 'dangngocthuak@gmail.com', 'Gia Lai', '0373377580', 'thu', 'd41d8cd98f00b204e9800998ecf8427e', 1, 1),
 (10, '', '', '', '', '', 'hai', 'e10adc3949ba59abbe56e057f20f883e', 1, 1),
@@ -11708,7 +11708,7 @@ INSERT INTO `orderproduct` (`OrderID`, `OrderDate`, `Fulname`, `Phonenumber`, `A
 (18, '2021-10-31 09:29:29', 'nguyễn văn an', '0373377580', '52 542 21625 Gần ủy ban nhân dân xã Cửu An', 'Nhà riêng', 'Thanh toán khi nhận hàng', 182800, 10, '2'),
 (19, '2021-11-07 10:29:48', 'Nguyễn Văn Nam', '09538753485', '24 217 7399 470 Trần Đại Nghĩa', 'Công ty', 'Thanh toán khi nhận hàng', 302800, 11, '3'),
 (20, '2021-11-07 21:02:17', 'Nguyễn Văn Nam', '0373377580', '11 101 1784 Gần ủy ban nhân dân xã Cửu An', 'Nhà riêng', 'Thanh toán khi nhận hàng', 315800, 11, '2'),
-(38, '2021-11-21 21:43:31', 'Nguyễn Minh Diện', '0967468703', 'Tỉnh Gia Lai - Thị xã An Khê - Xã Cửu An - Khu Tái Định Cư', 'Nhà riêng', 'Thanh toán khi nhận hàng', 482800, 1, '2'),
+(38, '2021-11-21 21:43:31', 'Nguyễn Bảo Cầm', '0967468703', 'Tỉnh Gia Lai - Thị xã An Khê - Xã Cửu An - Khu Tái Định Cư', 'Nhà riêng', 'Thanh toán khi nhận hàng', 482800, 1, '2'),
 (39, '2021-11-26 21:59:12', 'Đặng Ngọc Thư', '0373377580', 'Tỉnh An Giang - Thành phố Châu Đốc - Phường Châu Phú B - Gần ủy ban nhân dân xã Cửu An', 'Nhà riêng', 'Thanh toán khi nhận hàng', 402800, 11, '2');
 
 -- --------------------------------------------------------
@@ -11866,8 +11866,8 @@ CREATE TABLE `rating` (
 
 INSERT INTO `rating` (`RatingID`, `RatingComment`, `RatingName`, `RatingEmail`, `Rating_Star`, `ProductID`) VALUES
 (6, 'AO DEP LAM', 'Nguyen Minh Dien', 'minhdienne@gmail.com', 2, 7),
-(7, 'Áo của shop bạn đẹp quá, tuyệt vời. Mình cho hẳn 5 sao', 'Nguyễn Minh Diện', 'nmdien@gmail.com', 5, 7),
-(8, ' Chất liệu thun mỏng và tinh tế, ôm sát và tạo cảm giác thon dài cho đôi chân! Lưng quần siêu cao và ống suông nhẹ, vải thoáng khí, mng có thể mặc thoải mái trong thời tiết hè', 'nguyễn minh diện', 'dien@gmail.com', 4, 30),
+(7, 'Áo của shop bạn đẹp quá, tuyệt vời. Mình cho hẳn 5 sao', 'Nguyễn Bảo Cầm', 'nmdien@gmail.com', 5, 7),
+(8, ' Chất liệu thun mỏng và tinh tế, ôm sát và tạo cảm giác thon dài cho đôi chân! Lưng quần siêu cao và ống suông nhẹ, vải thoáng khí, mng có thể mặc thoải mái trong thời tiết hè', 'nguyễn Bảo Cầm', 'dien@gmail.com', 4, 30),
 (9, 'Đồ rất đẹp ạ', 'Thư', 'dangngocthuak@gmail.com', 5, 17);
 
 --

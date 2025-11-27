@@ -94,10 +94,10 @@
                                 <a href="tel:0123.456.789"><i class="fa fa-phone" aria-hidden="true"></i> 0123.456.789</a>
                             </li>
                             <li class="menu-item menu-item-type-custom menu-item-2185 item-level-0 menu-item-design-default item-event-hover">
-                                <a href="mailto:0123.456.789"><i class="fa fa-envelope-o" aria-hidden="true"></i> TDshop@gmail.com</a>
+                                <a href="mailto:0123.456.789"><i class="fa fa-envelope-o" aria-hidden="true"></i> JPfashion@gmail.com</a>
                             </li>
                             <li class="menu-item menu-item-type-custom menu-item-2185 item-level-0 menu-item-design-default item-event-hover">
-                                <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> An Khê, Gia Lai</a>
+                                <a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Ngũ Hành Sơn, Đà Nẵng</a>
                             </li>
                         </ul>
                     </div>
@@ -155,9 +155,9 @@
               		<div class="site-logo">
     					<div class="woodmart-logo-wrap"> 
 					        <a href="" class="woodmart-logo woodmart-main-logo" rel="home"> 
-					            <img src="public/images/logo_tvd.png" alt="TD SHOP" style="max-width: 245px;"> 
+					            <img src="public/images/logo.png" alt="TD SHOP" style="max-width: 245px;"> 
 					        </a>
-                    		<h1 class="blog-info" style="display:none;">TVD Shop</h1>
+                    		<h1 class="blog-info" style="display:none;">J-P Fashion</h1>
                 		</div>
 					</div>               
  				<div class="whb-space-element " style="width:10px;"></div>
@@ -263,7 +263,7 @@
 			    <div class="site-logo">
 				    <div class="woodmart-logo-wrap"> 
 				        <a href="#" class="woodmart-logo woodmart-main-logo" rel="home"> 
-				            <img src="public/images/logo_tvd.png" alt="TD SHOP" style="max-width: 245px;"> 
+				            <img src="public/images/logo.png" alt="TD SHOP" style="max-width: 245px;"> 
 				        </a>
 				       <h1 class="blog-info" style="display:none;">TD Shop</h1>
 				    </div>
@@ -309,22 +309,22 @@
 	                              <ul id="menu-categories" class="menu wd-cat-nav dropdowns-loaded">
 	                              	
 	                              	<li   class="menu-item item-level-0">
-	                              		<a href="?act=list_shirt&sp=1" class=" woodmart-nav-link"><img src="public/images/icon_ao.png" class="category-icon" width="18" height="18" alt="Áo">Áo</a>
+	                              		<a href="?act=list_shirt&sp=1" class=" woodmart-nav-link">Áo</a>
 	                              	</li>
 	                              	<li  class="menu-item item-level-0">
-	                              		<a href="?act=list_trousers&sp=2" class="mega-col-3 woodmart-nav-link"><img src="public/images/icon_quan.png" class="category-icon" width="18" height="18" alt="Áo">Quần</a>
+	                              		<a href="?act=list_trousers&sp=2" class="mega-col-3 woodmart-nav-link">Quần</a>
 	                              	</li>
 
 	                              	<li class="menu-item item-level-0">
-	                              		<a href="?act=list_hat&sp=3" class="mega-col-2 woodmart-nav-link"><img src="public/images/icon_mu.png" class="category-icon" width="18" height="18" alt="Áo">Mũ</a>
+	                              		<a href="?act=list_hat&sp=3" class="mega-col-2 woodmart-nav-link">Mũ</a>
 	                              	</li>
 
 	                              	<li  class="menu-item item-level-0">
-	                              		<a href="?act=list_belt&sp=4" class=" woodmart-nav-link"><img src="https://img.icons8.com/windows/50/000000/scarf.png" class="category-icon" width="18" height="18" alt="Thắt lưng">Thắt lưng</a>
+	                              		<a href="?act=list_belt&sp=4" class=" woodmart-nav-link">Thắt lưng</a>
 	                              	</li>
 
 	                              	<li class="menu-item item-level-0">
-	                              		<a href="?act=list_shoes&sp=5" class=" woodmart-nav-link"><img src="https://img.icons8.com/wired/64/000000/sneakers.png" class="category-icon" width="18" height="18" alt="giày">Giày</a>
+	                              		<a href="?act=list_shoes&sp=5" class=" woodmart-nav-link">Giày</a>
 	                              	</li>
 
 								      
@@ -370,7 +370,7 @@
 							        	<li class="menu-item "><a href="?act=list_shirt&sp=1">Áo</a></li>
 							        	<li  class="menu-item"><a href="?act=list_trousers&sp=2" >Quần</a></li>
 							        	<li  class="menu-item"><a href="?act=list_hat&sp=3" >Mũ</a></li>
-							        	<li  class="menu-item"><a href="?act=list_belt&sp=4" >Thắt lưng</a></li>
+							        	<li  class="menu-item"><a href="?act=list_belt&sp=4" >Thắt Lưng</a></li>
 							        	<li  class="menu-item"><a href="?act=list_shoes&sp=5" >Giày</a></li>
 							        	
 							        </ul>

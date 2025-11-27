@@ -17,17 +17,16 @@
 		<div class="row">
 				<div class="col-lg-6">
 					<div class="about-img">
-						<img src="public/images/logo_tvd.png" alt=""  />
+						<img src="public/images/logo.png" alt=""  />
 					</div>
 				</div>
 				<div class="col-lg-6">
 					<div class="about-text">
 						<div class="row">
-						<h4>Cửa hàng thời trang TVD</h4>
+						<h4>Cửa hàng thời trang J-P Fashion</h4>
 						<ol>
-						<li>TVD là một cửa hàng thời trang chuyên cung cấp các loại sản phẩm về áo, quần, mũ, thắt lưng và giày.</li>
-						<li>Luôn cập nhật những sản phẩm mới nhất mỗi ngày, TVD mong muốn đem lại cho khách hàng những giá trị tốt nhất về sản phẩm cũng như các dịch vụ tại TVD.</li>
-						<li>Với không gian mua sắm sang trọng, hiện đại, đội ngũ nhân viên tận tình, chu đáo, cùng với đó là dịch vụ chăm sóc khách hàng vô cùng hoàn hảo, TVD hy vọng tất cả khách hàng sẽ có những giây phút shopping thật thoải mái.</li>
+						<li>J-P Fashion là thương hiệu thời trang nữ phong cách đa dạng với hàng nghìn mẫu thiết kế. Nơi các xu hướng thời trang trên thế giới được cập nhật mỗi ngày.</li>
+						<li>Với không gian mua sắm sang trọng, hiện đại, đội ngũ nhân viên tận tình, chu đáo, cùng với đó là dịch vụ chăm sóc khách hàng vô cùng hoàn hảo, J-P Fashion hy vọng tất cả khách hàng sẽ có những giây phút shopping thật thoải mái.</li>
 						</ol>
 						</div>
 						<div class="row" style="margin-top: 5px">
@@ -52,7 +51,7 @@
 			<div class="card card_gioithieu" >
 				<img src="public/images/tintuc2.jpg" alt="card background" class="card-img">
                 <img src="public/images/profile_dien.jpg" alt="profile image" class="profile-img">
-                <h1>Nguyễn Minh Diện</h1>
+                <h1>Nguyễn Bảo Cầm</h1>
                 
                 <p class="about">
                     Chúng ta có thể gặp nhiều thất bại nhưng chúng ta không được bị đánh bại.
