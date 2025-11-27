@@ -67,7 +67,7 @@ transition: 0.3s;
 opacity: 0.7;
 }
 .giamgiamoi{
-font-family: "Helvetica";
+font-family: inherit;
 z-index: 1;
 position: absolute;
 display: block;
@@ -85,7 +85,7 @@ background-color: #0F8C05;
     
 }
   .giamgiahot{
-  font-family: "Helvetica";
+  font-family: inherit;
   z-index: 1;
   position: absolute;
   display: block;
@@ -126,7 +126,7 @@ background-color: #0F8C05;
 }
 .text_sanpham{
   text-align: center;
-  font-family: "Helvetica";
+  font-family: inherit;
   font-size: 15px;
   font-weight: 700;
   color: black;
@@ -167,7 +167,7 @@ background-color: #0F8C05;
   text-align: center;
 }
 .gia_sanpham{
-    font-family: "Helvetica";
+    font-family: inherit;
     font-size: 15px;
     color: #5BE045;
 }
@@ -181,7 +181,7 @@ background-color: #0F8C05;
 }
 .card_tintuc{
   padding: 0%;
-  font-family: "Helvetica";
+  font-family: inherit;
   align-items: center;
   margin-right: 2%;
   
@@ -214,7 +214,7 @@ background-color: #0F8C05;
 }
 .day_tintuc{
 
-  font-family: "Helvetica";
+  font-family: inherit;
   z-index: 1;
   position: absolute;
   display: block;
@@ -228,12 +228,12 @@ background-color: #0F8C05;
   text-align: center;
   color: black;
   /* opacity: 0.9; */
-  background-color: white;    
+  background-color: white;
+      
   }
-
-.card-text{
-  text-align: center;
-}
+  .card-text{
+    text-align: center;
+  }
   .title_card{
     text-align: center;
     font-weight: 500;

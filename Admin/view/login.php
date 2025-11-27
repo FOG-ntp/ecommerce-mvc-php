@@ -1,18 +1,10 @@
 <?php include 'model/adminlogin.php'; ?>
 <?php 
 $class= new Adminlogin();
-if ($_SERVER['REQUEST_METHOD'] === 'POST') {
-    // Kiểm tra xem đây là hành động đăng nhập hay đăng ký
-    if (isset($_POST['signin-btn'])) { // Dựa vào name của nút submit đăng nhập
-        $adminUser = $_POST['adminUser'];
-        $adminPass = $_POST['adminPass'];
-        $login_check = $class->login_admin($adminUser, $adminPass);
-    } elseif (isset($_POST['signup-btn'])) { // Dựa vào name của nút submit đăng ký
-        // Giả sử bạn có một phương thức `register_admin` trong class `Adminlogin`
-        // $register_check = $class->register_admin($_POST);
-        // Tạm thời hiển thị thông báo, bạn cần tự implement chức năng này
-        $register_check = "Chức năng đăng ký đang được phát triển.";
-    }
+if($_SERVER['REQUEST_METHOD']==='POST'){
+$adminUser=$_POST['adminUser'];
+$adminPass=$_POST['adminPass'];
+$login_check=$class->login_admin($adminUser,$adminPass);
 }
 ?>
 <!DOCTYPE html>
@@ -20,8 +12,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- ===== Local CSS and Boxicons ===== -->
-    <link rel="stylesheet" href="public/boxicons/css/boxicons.min.css">
+    <!-- ===== CSS ===== -->
+    <link rel="stylesheet" href="public/css/styles.css">
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <!-- ===== BOX ICONS ===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
     <title>Responsive Login Form Sign In Sign Up</title>
     <link rel="stylesheet" href="public/css/login.css">
 </head>
@@ -65,7 +60,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                     <a href="#" class="login__forgot">Quên mật khẩu ?</a>
 
-                    <input type="submit" name="signin-btn" class="login__button" id="signin-btn" value="Đăng nhập">
+                    <input type="submit" class="login__button" id="signin-btn" value="Đăng nhập">
 
                     <div>
                         <span class="login__account">Bạn chưa có tài khoản ?</span>
@@ -73,16 +68,12 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     </div>
                 </form>
 
-                <form action="?act_admin=register" method="post" class="login__create none" id="login-up">
+                <form action="" class="login__create none" id="login-up">
                     <h1 class="login__title">Đăng ký</h1>
-                    <span><?php 
-                    if(isset($register_check)){
-                        echo $register_check;
-                    } ?></span>
 
                     <div class="login__box">
                         <i class='bx bx-user login__icon'></i>
-                        <input type="user" name="adminUser" placeholder="Tên đăng nhập" class="login__input form-input" id="signup-email">
+                        <input type="user" placeholder="Tên đăng nhập" class="login__input form-input" id="signup-email">
                         <span class="form-input-icon err">
                             <i class='bx bx-error-circle'></i>
                         </span>
@@ -94,7 +85,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                     <div class="login__box">
                         <i class='bx bx-lock-alt login__icon'></i>
-                        <input type="password" name="adminPass" placeholder="Mật khẩu" class="login__input form-input" id="signup-password">
+                        <input type="password" placeholder="Mật khẩu" class="login__input form-input" id="signup-password">
                         <span class="form-input-icon err">
                         <i class='bx bx-error-circle'></i>
                         </span>
@@ -106,7 +97,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
 
                     <div class="login__box">
                         <i class='bx bx-lock-alt login__icon'></i>
-                        <input type="password" name="adminPassConfirm" placeholder="Xác nhận mật khẩu" class="login__input form-input" id="signup1-password">
+                        <input type="password" placeholder="Xác nhận mật khẩu" class="login__input form-input" id="signup1-password">
                         <span class="form-input-icon err">
                         <i class='bx bx-error-circle'></i>
                         </span>
@@ -116,7 +107,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
                     </div>
                     <span class="form-input-err-msg" data-err-for="signup1-password"></span>
 
-                    <input type="submit" name="signup-btn" class="login__button" value="Đăng ký">
+                    <input type="submit" class="login__button" value="Đăng ký">
 
                     <div>
                         <span class="login__account">Bạn đã có tài khoản?</span>

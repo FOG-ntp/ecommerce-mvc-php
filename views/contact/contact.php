@@ -14,14 +14,14 @@
 <!-- contact content section start -->
 <div class="pages contact-page section-padding">
 	<div class="container-fluid">
-		<div class="row" style="padding-top:5px">
+		<div class="row" style="padding-top">
 			<div class="col-sm-2 padding-top"></div>
 		<div class="col-sm-4 padding-top">
 				<div class="contact-details">
 					<div class="row">
 						<h3>Liên hệ với chúng tôi</h3>
 						<div class="infos-contact">
-                	<p><i class="fa fa-location-arrow" aria-hidden="true"></i> <span class="text">Ngữ Hành Sơn, Đà Nẵng</span></p>
+                	<p><i class="fa fa-location-arrow" aria-hidden="true"></i> <span class="text">An Khê, Gia Lai</span></p>
                     <p><i class="fa fa-phone" aria-hidden="true"></i> <span class="text">0123.456.789</span></p>
                     <p><i class="fa fa-envelope-o" aria-hidden="true"></i> <span class="text">TDshop@gmail.com</span></p>
 					</div>

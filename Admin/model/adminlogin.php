@@ -14,40 +14,6 @@ class Adminlogin
         $this->db=new Database();
         $this->fm=new Format();
     }
-    public function register_admin($adminUser, $adminPass, $adminConfirmPass){
-        $adminUser = $this->fm->validation($adminUser);
-        $adminPass = $this->fm->validation($adminPass);
-        $adminConfirmPass = $this->fm->validation($adminConfirmPass);
-
-        $adminUser = mysqli_real_escape_string($this->db->link, $adminUser);
-        $adminPass = mysqli_real_escape_string($this->db->link, $adminPass);
-        $adminConfirmPass = mysqli_real_escape_string($this->db->link, $adminConfirmPass);
-
-        if(empty($adminUser) || empty($adminPass) || empty($adminConfirmPass)){
-            $alert = "Tên đăng nhập và mật khẩu không được để trống";
-            return $alert;
-        } else if ($adminPass != $adminConfirmPass){
-            $alert = "Mật khẩu xác nhận không khớp";
-            return $alert;
-        } else {
-            $check_query = "SELECT * FROM admin WHERE AdminUser = '$adminUser' LIMIT 1";
-            $result_check = $this->db->select($check_query);
-            if($result_check){
-                $alert = "Tên đăng nhập đã tồn tại";
-                return $alert;
-            } else {
-                $query = "INSERT INTO admin(AdminUser, AdminPass) VALUES ('$adminUser', '".md5($adminPass)."')";
-                $result = $this->db->insert($query);
-                if($result){
-                    $alert = "<span class='success'>Đăng ký tài khoản admin thành công</span>";
-                    return $alert;
-                } else {
-                    $alert = "<span class='error'>Đăng ký tài khoản admin không thành công</span>";
-                    return $alert;
-                }
-            }
-        }
-    }
     public function login_admin($adminUser,$adminPass){
         $adminUser=$this->fm->validation($adminUser);
         $adminPass=$this->fm->validation($adminPass);

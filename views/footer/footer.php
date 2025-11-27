@@ -13,7 +13,7 @@
 	              </div>
 	              <p>Shop Thời Trang TDShop chúng tôi không đơn thuần là cái đẹp thời trang, chúng tôi khao khát kiến tạo những giá trị xã hội nhân văn, trở thành một lối sống để đồng hành cùng phụ nữ trên hành trình thấu cảm vẻ đẹp của chính mình.</p>
 	              	<div style="line-height: 2;">
-		                <i class="fa fa-location-arrow" style="width: 15px; text-align: center; margin-right: 4px; color: #676767;"></i> Ngũ Hành Sơn, Đà Nẵng<br>
+		                <i class="fa fa-location-arrow" style="width: 15px; text-align: center; margin-right: 4px; color: #676767;"></i> An Khê, Gia Lai<br>
 		                <i class="fa fa-mobile" style="width: 15px; text-align: center; margin-right: 4px; color: #676767;"></i> Điện thoại: 0123.456.789<br>
 		                <i class="fa fa-envelope-o" style="width: 15px; text-align: center; margin-right: 4px; color: #676767;"></i> Email: TDshop@gmail.com
 	            	</div>
