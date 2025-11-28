@@ -534,7 +534,7 @@
     background-color: #4c40ff
     }
     #progressbar .active {
-    color: #2F8D46
+    color: #000B58
     }
     #form #progressbar{
     text-align: center;
@@ -588,7 +588,7 @@
     
     #progressbar li.active:before,
     #progressbar li.active:after {
-    background: #2F8D46
+    background: #000B58
     }
     
     .progress {
@@ -596,5 +596,5 @@
     }
     
     .progress-bar {
-    background-color: #2F8D46
+    background-color: #000B58
     }

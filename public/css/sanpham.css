@@ -38,11 +38,11 @@
    transition: background-color .3s;
  }
 /* thiết lập style cho class active */
- .pagination a.active {
-   background-color: #000B58;
-   color: white;
-   text-align: center;
-
+.pagination a.active {
+    background-color: #000B58;
+    color: white;
+    text-align: center;
+    border-radius: 40%;
  }
 /* thêm màu nền khi người dùng hover vào class không active */
  .pagination a:hover:not(.active) {
@@ -60,9 +60,7 @@
  }
 
  /* spham-ao */
- .form-add-ao{
 
- }
 .form-add-ao label{
 
     font-weight: 600;
@@ -127,7 +125,7 @@ color: white;
     border: 1px solid #d7d7d7;
     border-radius: 5px;
 }
-.price_filter .ui-slider-handle.ui-state-default.ui-corner-all {
+.price_filter .ui-slider-handle .ui-state-default .ui-corner-all {
     background: #000B58 none repeat scroll 0 0;
     border: 0px solid #000B58;
     border-radius:50%;
@@ -137,7 +135,11 @@ color: white;
     cursor: pointer;
     z-index: 1;
 }
-.price_filter .ui-slider-range {background: #000B58 none repeat scroll 0 0;}
+.price_filter .ui-slider-range 
+{
+    background: #000B58 none repeat scroll 0 0;
+}
+
 .price_slider_amount > input[type="text"] {
     font-weight: 500;
     font-size: 1rem;

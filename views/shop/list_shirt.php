@@ -11,6 +11,8 @@
 		            		<div class="owl-carousel owl-carousel-quangcao owl-theme">
 							    <div class="item item_slidequangcao"><img src="public/images/quangcao1.jpg"  alt=""></div>
 							    <div class="item item_slidequangcao"><img src="public/images/quangcao2.jpg"  alt=""></div>
+									<div class="item item_slidequangcao"><img src="public/images/quangcao3.jpg" alt=""></div>
+                    <div class="item item_slidequangcao"><img src="public/images/quangcao4.jpg" alt=""></div>
 							</div>
 			            </div>
 			       	</div>
@@ -50,7 +52,7 @@
 						<!-- ben trai gom cac loai san pham -->
 						<form action="?act=list_shirt" method="post">
 							<div class="price_filter slidecontainer">
-							<div id="slider-range"></div>
+							<div id="slider-range" ></div>
 								<div class="price_slider_amount">
 									<input type="text"  name="price_ao" />
 									<div class="row">
@@ -128,7 +130,7 @@
 							<div class="pagination">
 						       <?php if ($data_tong >= 9) {
 									for ($i = 1; $i <= $data_tong / 9; $i++) { ?>
-										<a name="trang_ao" class="active chinh_menu" href="?act=list_shirt&trangao=<?= $i ?>"><?= $i ?></a>
+										<a name="trang_ao" style="background-color: #000B58;border-radius: 25%;" class="active chinh_menu" href="?act=list_shirt&trangao=<?= $i ?>"><?= $i ?></a>
 								<?php }
 								}
 								?>

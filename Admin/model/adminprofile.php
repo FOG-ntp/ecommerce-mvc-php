@@ -29,7 +29,7 @@ class Adminprofile
         $file_ext=strtolower(end($div));
         $upload_image="upload/".$file_name;
         if($fullname=="" || $gender=="" || $brithday=="" || $address=="" || $phone==""|| $email=="" || $username=="" || $pass==""){
-            $alert= "<span class='error'> Thương hiệu không được để trống</span>";
+            $alert= "<span class='error'> Thông tin không được để trống</span>";
             return $alert;
         }else{
             if(!empty($file_name)){
@@ -76,7 +76,7 @@ class Adminprofile
         $file_ext=strtolower(end($div));
         $upload_image="upload/".$file_name;
         if($fullname=="" || $gender=="" || $brithday=="" || $address=="" || $phone==""|| $email=="" || $username=="" || $pass=="" || $file_name==""){
-            $alert= "<span class='error'> Thương hiệu không được để trống</span>";
+            $alert= "<span class='error'> ThThông tin không được để trống</span>";
             return $alert;
         if(in_array($file_ext,$premited)===false){
             $alert="<span class='error'>Bạn chỉ có thể tải lên:".implode(', ',$premited)."</span>";

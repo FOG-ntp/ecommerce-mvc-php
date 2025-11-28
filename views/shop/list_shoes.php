@@ -11,6 +11,8 @@
 		            		<div class="owl-carousel owl-carousel-quangcao owl-theme">
 							    <div class="item item_slidequangcao"><img src="public/images/quangcao1.jpg"  alt=""></div>
 							    <div class="item item_slidequangcao"><img src="public/images/quangcao2.jpg"  alt=""></div>
+									<div class="item item_slidequangcao"><img src="public/images/quangcao3.jpg" alt=""></div>
+                    <div class="item item_slidequangcao"><img src="public/images/quangcao4.jpg" alt=""></div>
 							</div>
 			            </div>
 			       	</div>
@@ -128,7 +130,7 @@
 						<div class="pagination">
 					       <?php if ($data_tong >= 9) {
 								for ($i = 1; $i <= $data_tong / 9; $i++) { ?>
-									<a class="active chinh_menu" href="?act=list_shoes&tranggiay=<?= $i ?>"><?= $i ?></a>
+									<a class="active chinh_menu" style="background-color: #000B58;border-radius: 25%;" href="?act=list_shoes&tranggiay=<?= $i ?>"><?= $i ?></a>
 							<?php }
 							}
 							?>

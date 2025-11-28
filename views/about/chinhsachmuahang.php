@@ -14,7 +14,7 @@
     <h2><strong>Chính sách giao hàng</strong></h2>
     <p>
         <strong>1. Thời gian giao hàng: </strong><br>
-        Đơn hàng nội và ngoại thành TP.Gia Lai: <br>
+        Đơn hàng nội và ngoại thành TP.Đà Nẵng: <br>
         Thời gian giao hàng là 1-2 ngày sau khi đặt hàng.<br>
 
         Đơn hang trước 11h30 trưa thì sẽ giao trong buổi chiều cùng ngày<br>

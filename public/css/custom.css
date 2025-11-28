@@ -67,6 +67,7 @@
 }
 #halink_vn_homepage_content .woodmart-title-container.title:before,
 #halink_vn_homepage_content .woodmart-title-container.title:after{
+	background:#000B58;
 	flex-grow: 1;
 	content:"";
 	height:1px;

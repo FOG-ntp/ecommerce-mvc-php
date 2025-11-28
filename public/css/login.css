@@ -127,8 +127,7 @@
     width: 100%;
     padding: 1rem;
     margin: .5rem 0;
-    /* background-color: var(--first-color); */
-        background-color: #000B58;
+    background-color: #000B58;
     color: #FFF;
     font-weight: 600;
     text-align: center;
@@ -137,7 +136,8 @@
 }
 
 .login__button:hover{
-   background-color: #5F8F18;
+   background-color: #003161;
+   color: #fff;
 }
 
 .login__account, .login__signin, .login__signup{

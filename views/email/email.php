@@ -10,8 +10,8 @@ if (isset($_POST)) {
         $mail->CharSet  = "utf-8";
         $mail->Host = 'smtp.gmail.com';  //SMTP servers
         $mail->SMTPAuth = true; // Enable authentication
-        $nguoigui = 'minhdien678@gmail.com';
-        $matkhau = '24082002';
+        $nguoigui = 'nguyenthanhphong2912002@gmail.com';
+        $matkhau = '291291Fog';
         $tennguoigui = 'Admin_J-P_Fashion';
         $mail->Username = $nguoigui; // SMTP username
         $mail->Password = $matkhau;   // SMTP password

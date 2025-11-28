@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 5.2.0
+-- version 5.2.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Apr 14, 2023 at 05:10 PM
--- Server version: 10.4.27-MariaDB
--- PHP Version: 8.2.0
+-- Generation Time: Nov 28, 2025 at 05:00 PM
+-- Server version: 10.4.32-MariaDB
+-- PHP Version: 8.1.25
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -45,10 +45,10 @@ CREATE TABLE `admin` (
 --
 
 INSERT INTO `admin` (`AdminID`, `AdminName`, `AdminGender`, `AdminBrithday`, `AdminAddress`, `AdminPhone`, `AdminEmail`, `AdminUser`, `AdminPass`, `AdminImg`) VALUES
-(1, 'Đặng Ngọc Thư', '1', '21/04/2002', 'Gia Lai', '0373377580', 'dangngocthuak@gmail.com', 'admin', 'admin', 'dnthu21.jpg'),
-(2, 'Đặng Ngọc Thư', '1', '21/04/2002', 'Đà Nẵng', '0373377580', 'dnthu.20it1@vku.udn.vn', 'dnthu21', '21042002', 'dnthu21.jpg'),
-(46, 'Nguyễn Bảo Cầm', '1', '24/11/2021', 'Việt Name', '0373377580', 'dangngocthuak@gmail.com', 'nmdien123', '123456', 'Ban-u-M-i-Xu-t-Hi-n-Nike-AS-M-NK-Thrma-Sphr-Qu-n.jpg'),
-(47, 'Nguyễn Bảo Cầm', '1', '24/08/2002', 'Gia Lai', '0967468703', 'minhdien678@gmail.com', 'dienak', 'dienak', 'avtfb.jpg');
+(47, 'Admin J-P', '1', '01/01/2004', 'Ngũ Hành Sơn - Đà Nẵng', '0123456789', 'jpfashion.admin@gmail.com', 'admin', '12341234', 'tintuc2.jpg'),
+(48, 'Đình Tân', '1', '25/10/2004', 'Ngũ Hành Sơn - Đà Nẵng', '0123456789', 'dinhtanadmin@gmail.com', 'dinhtan', '12341234', 'profile_dinhtan.png'),
+(49, 'Bảo Cầm', '0', '01/01/2004', 'Ngũ Hành Sơn - Đà Nẵng', '0123456789', 'adminbaocam@gmail.com', 'baocam', '12341234', 'profile_baocam.png'),
+(50, 'Thảo Thảo', '0', '11/10/2004', 'Ngũ Hành Sơn - Đà Nẵng', '0123456789', 'adminthaothao@gmail.com', 'thaothao', '12341234', 'profile_thaothao.png');
 
 -- --------------------------------------------------------
 
@@ -68,15 +68,11 @@ CREATE TABLE `brand` (
 --
 
 INSERT INTO `brand` (`BrandID`, `BrandName`, `Logo`, `BrandDesc`) VALUES
-(1, 'Nike', 'logonike.jpg', '<p>Nike sản xuất tất cả các loại dụng cụ thể thao. Sản phẩm đầu tiên của họ là giày chạy bộ. Giờ đây, họ cũng sản xuất giày, áo thi đấu, quần short, giày bệt, giày bóng rổ, v.v. Thích hợp cho nhiều môn thể thao, bao gồm điền kinh, bóng chày, khúc côn cầu<'),
-(2, 'Adidas', 'logoadidas.png', '<p><strong>Adidas</strong> là một công ty đa quốc gia đến từ Đức, chuyên sản xuất giày dép, quần áo và phụ kiện. Tiền thân của công ty là Gebruder Dassler Schuhfabrik, được thành lập vào năm 1924 bởi anh em nhà Dassler là Adi Dassler và Rudolf. Ban đầu, t'),
-(4, 'Khác', '68fcf46fd4.jpg', '<p>Một thương hiệu khác</p>'),
-(5, 'Louis Vuitton', 'logolv.png', '<p>Được thành lập vào năm 1854, <strong>Louis Vuitton</strong> là một cái tên tối thượng trong làng thời trang Pháp, nhắc đến <strong>Louis Vuitton</strong> là nhắc đến những phẩm chất tốt nhất mà nhân loại từng khai sinh: <strong>hoàn hảo</strong>,</p>'),
-(7, 'Gucci', 'logogucci.jpg', '<p><strong>The House of Gucci,</strong> hay <strong>Gucci</strong>, là một biểu tượng thời trang của Italia và Pháp, một nhãn hiệu đồ da nổi tiếng. Được sáng lập bởi <strong>Guccio Gucci </strong>vào năm 1906, <strong>Gucci</strong> được coi là một trong<'),
-(8, 'Hermès', 'logohermes.jpg', '<p><strong>Thương hiệu Hermès</strong> do Thierry Hermès doanh nhân người Pháp gốc Đức sáng lập vào năm 1937 với mục tiêu ban đầu là sản xuất cương ngựa. Doanh nghiệp hiện chuyên sản xuất hàng da, phụ kiện phong cách sống, nước hoa, hàng xa xỉ và quần áo<'),
-(9, 'Chanel', 'logochanel.png', '<p>Trong ngành công nghiệp thời trang, mọi thứ đều bắt đầu với <strong>Chanel </strong>và kết thúc cũng với <strong>Chanel</strong>. Logo 2 chữ C lồng ghép vào nhau luôn là ma lực khó cưỡng đối với mọi phụ nữ trên hành tinh này. Thương hiệu được thành lập'),
-(10, 'Versace', 'logoversace.png', '<p><strong>Versace</strong> là biểu tượng thời trang mang tính di sản của nước Ý với niềm cảm hứng nghệ thuật và thời trang luôn sánh bước cùng nhau. Nhà sáng lập thương hiệu, Gianni Versace là người chịu ảnh hưởng mạnh mẽ bởi truyền thống và lịch sử của<'),
-(15, 'Mũ', '20_2.3_20IT542_Đặng Ngọc Thư.jpg', '<p>Mũ rất đệp</p>');
+(1, 'UNIQLO', 'uniqlo-Logo.jpg', '<p>UNIQLO brand</p>'),
+(2, 'YODY', 'yody-logo.jpg', '<p>YODY brand</p>'),
+(3, 'COOLMATE', 'coolmate-logo.jpg', '<p>Coolmate Brand</p>'),
+(4, 'CANIFA', 'canifa-logo.jpg', '<p>Canifa Brand</p>'),
+(5, 'JPFASHION', 'logo.png', '<p>J-P Fashion Brand</p>');
 
 -- --------------------------------------------------------
 
@@ -125,11 +121,11 @@ CREATE TABLE `categories` (
 --
 
 INSERT INTO `categories` (`CategoryID`, `CategoryName`, `Picture`, `Description`) VALUES
-(1, 'Áo', 'danhmuc_ao.jpg', '<p>đồ mặc từ cổ trở xuống, chủ yếu che lưng, ngực và bụng</p>'),
-(2, 'Quần', 'danhmuc_quan.jpg', '<p><strong>Quần</strong> là loại <a href=\"https://vi.wikipedia.org/wiki/Trang_ph%E1%BB%A5c\">trang phục</a> mặc từ eo đến mắt cá hoặc che đến đầu gối, cao hoặc thấp hơn đầu gối tùy loại, che phủ từng chân riêng biệt (khác với váy hoặc đầm).</p>'),
-(3, 'Mũ', 'danhmuc_mu.jpg', '<p><strong>Mũ</strong> là vật dụng để che <a href=\"https://vi.wikipedia.org/wiki/%C4%90%E1%BA%A7u\">đầu</a>. Nó có thể dùng để bảo vệ đầu hoặc vì các lý do nghi lễ hoặc <a href=\"https://vi.wikipedia.org/wiki/T%C3%B4n_gi%C3%A1o\">tôn giáo</a>, vì lý do an to'),
-(4, 'Thắt lưng', 'danhmuc_nit.jpg', '<p>Ở Nam bộ thì <strong>nịt</strong> được định nghĩa <strong>là</strong> dây lưng hoặc dây để đeo vào quai quần. Từ <strong>nịt</strong> ở dạng động từ còn có nghĩa <strong>là</strong> buộc, bó sát, ví dụ như: <strong>nịt</strong> bụng, <strong>nịt</stron'),
-(5, '', 'danhmuc_giay.jpg', '');
+(1, 'Áo', 'category-shirt.png', '<p>category-shirt</p>'),
+(2, 'Quần', 'category-trousers.jpg', '<p>category-trousers</p>'),
+(3, 'Mũ', 'category-hat.jpg', '<p>category-hat</p>'),
+(4, 'Thắt lưng', 'category-belt.jpg', '<p>category-belt</p>'),
+(5, 'Giày', 'category-shoes.jpg', '<p>category-shoes</p>');
 
 -- --------------------------------------------------------
 
@@ -152,18 +148,9 @@ CREATE TABLE `contact` (
 --
 
 INSERT INTO `contact` (`ContactID`, `FullName`, `Email`, `Title`, `Content`, `ContactDate`, `Status`) VALUES
-(1, 'Đặng Ngọc Thư', 'dangngocthuak@gmail.com', 'Quần áo', 'Quần áo đẹp', '', '1'),
-(2, 'Nguyễn Trọng Hải', 'nthaiak123@gmail.com', 'Vấn đề giao hàng', 'Hàng lâu vẫn chưa thấy về', '', '1'),
-(3, 'Nguyễn Văn A', 'dangngocthuak@gmail.com', 'Mua hang', '', '[value-6]', '1'),
-(4, 'Nguyễn Văn An', 'dangngocthuak@gmail.com', 'Mua hang', '', '[value-6]', '1'),
-(17, 'Nguyen Bảo Cầm', 'dangngocthuak@gmail.com', 'Tư vấn áo', 'giao hàng nhanh, tuyệt vời lắm shop ơi', '21:00 19-11-2021', '1'),
-(18, '', '', '', '', '18:10 26-11-2021', '1'),
-(19, '', '', '', '', '18:11 26-11-2021', '0'),
-(20, '', '', '', '', '18:11 26-11-2021', '0'),
-(21, '', '', '', '', '18:11 26-11-2021', '0'),
-(22, '', '', '', '', '18:23 26-11-2021', '0'),
-(23, '', '', '', '', '18:28 26-11-2021', '0'),
-(24, 'Đặng Ngọc Thư', 'dangngocthuak@gmail.com', 'Hàng giao chậm', 'Đặt hàng từ ngày 20/10 tới giờ vẫn chưa thấy đâu', '10:02 01-12-2021', '1');
+(1, 'Nguyễn Văn A', 'thanhphong291qb@gmail.com', 'Tư vấn lịch hẹn ', 'Tư vấn lịch hẹn gặp khách hàng trong tháng tới.', '21:48 28-11-2025', '1'),
+(2, 'Nguyễn Văn A', 'thanhphong291qb@gmail.com', 'Tư vấn lịch hẹn 2', 'Tư vấn lịch hẹn gặp khách hàng trong tháng tới. 2', '21:56 28-11-2025', '1'),
+(3, 'Nguyễn Văn A', 'thanhphong291qb@gmail.com', 'Tư vấn lịch hẹn 3', 'Tư vấn lịch hẹn gặp khách hàng trong tháng tới. 3', '22:07 28-11-2025', '1');
 
 -- --------------------------------------------------------
 
@@ -189,15 +176,8 @@ CREATE TABLE `customer` (
 --
 
 INSERT INTO `customer` (`CustomerID`, `Fullname`, `Gender`, `Email`, `Address`, `Phonenumber`, `Username`, `Password`, `Position`, `Status`) VALUES
-(1, 'Nguyễn Bảo Cầm', '', 'minhdien678@gmail.com', 'Gia Lai', '0967468703', 'dienak', '53bd549a5c4f48943664d5cbec041390', 1, 1),
-(7, '', '', '', '', '', 'dienakdz', 'ec5b7bb469c50918455bed19a973d7c0', 1, 1),
-(9, 'Đặng Ngọc Thư', '1', 'dangngocthuak@gmail.com', 'Gia Lai', '0373377580', 'thu', 'd41d8cd98f00b204e9800998ecf8427e', 1, 1),
-(10, '', '', '', '', '', 'hai', 'e10adc3949ba59abbe56e057f20f883e', 1, 1),
-(11, '', '', '', '', '', 'nam', 'e10adc3949ba59abbe56e057f20f883e', 1, 1),
-(12, '', '', '', '', '', '', 'd41d8cd98f00b204e9800998ecf8427e', 1, 1),
-(13, '', '', '', '', '', 'dnt', '202cb962ac59075b964b07152d234b70', 1, 1),
-(14, '', '', '', '', '', 'dntu', '202cb962ac59075b964b07152d234b70', 1, 1),
-(15, '', '', '', '', '', 'dnthu21', 'e10adc3949ba59abbe56e057f20f883e', 1, 1);
+(1, '', '', '', '', '', 'user1', 'ed2b1f468c5f915f3f1cf75d7068baae', 1, 1),
+(2, 'Bảo Cầm', '0', 'baocam@gmail.com', 'Ngũ Hành Sơn - Đà Nẵng', '0123456789', 'baocam', 'ed2b1f468c5f915f3f1cf75d7068baae', 1, 1);
 
 -- --------------------------------------------------------
 
@@ -11653,24 +11633,9 @@ CREATE TABLE `orderdetail` (
 --
 
 INSERT INTO `orderdetail` (`OrderID`, `ProductID`, `QuantityOrdered`, `Price`) VALUES
-(2, 7, 1, 83000),
-(11, 11, 1, 150000),
-(11, 12, 1, 71000),
-(12, 8, 2, 55000),
-(13, 8, 1, 55000),
-(14, 7, 1, 83000),
-(15, 7, 1, 83000),
-(15, 11, 1, 150000),
-(16, 7, 1, 83000),
-(16, 11, 1, 150000),
-(17, 11, 1, 150000),
-(18, 11, 1, 150000),
-(19, 17, 2, 135000),
-(20, 16, 2, 89000),
-(20, 15, 3, 35000),
-(38, 60, 1, 450000),
-(39, 26, 1, 280000),
-(39, 19, 1, 90000);
+(1, 32, 1, 469000),
+(1, 60, 1, 699000),
+(2, 17, 1, 548000);
 
 -- --------------------------------------------------------
 
@@ -11696,20 +11661,8 @@ CREATE TABLE `orderproduct` (
 --
 
 INSERT INTO `orderproduct` (`OrderID`, `OrderDate`, `Fulname`, `Phonenumber`, `Address`, `Typeaddress`, `Shippingtype`, `Totalprice`, `CustomerID`, `Status`) VALUES
-(1, '2021-10-29 21:26:22', 'nguyen minh dien', '0967468703', 'Gia Lai', 'Nhà riêng', 'Thanh toán khi nhận hàng', 412000, 1, '2'),
-(2, '2021-10-29 21:28:43', 'nguyen minh dien', '0967468703', '64 623 23629 An dien nam', 'Nhà riêng', 'Thanh toán khi nhận hàng', 83000, 7, '2'),
-(11, '2021-10-29 22:38:24', 'Đặng Ngọc Thư', '0123654878', '64 623 23629 An DIen Nam', 'Nhà riêng', 'Thanh toán khi nhận hàng', 221000, 1, '3'),
-(12, '2021-10-30 08:54:53', 'Đặng Ngọc Thư', '0373377580', '64 623 23629 An Bình', 'Nhà riêng', 'Thanh toán khi nhận hàng', 110000, 9, '2'),
-(13, '2021-10-30 22:12:03', 'Đặng Ngọc Thư', '0373377580', '   Gần ủy ban nhân dân xã Cửu An', 'Công ty', 'Thanh toán khi nhận hàng', 55000, 9, '2'),
-(14, '2021-10-30 22:14:48', 'Đặng Ngọc Thư', '0373377580', '77 750 26590 ga ga', 'Nhà riêng', 'Thanh toán khi nhận hàng', 83800, 9, '2'),
-(15, '2021-10-30 22:19:54', 'Đặng Ngọc Thư', '0373377580', ' 748 26572 h2', 'Nhà riêng', 'Thanh toán khi nhận hàng', 233000, 9, '2'),
-(16, '2021-10-30 22:23:20', 'Đặng Ngọc Thư', '0373377580', ' 748 26572 Gần ủy ban nhân dân xã Cửu An', 'Công ty', 'Thanh toán khi nhận hàng', 265800, 9, '2'),
-(17, '2021-10-31 09:25:18', 'nguyễn văn an', '045823534', '4 36 1378 500 LHP', 'Nhà riêng', 'Thanh toán khi nhận hàng', 240800, 10, '2'),
-(18, '2021-10-31 09:29:29', 'nguyễn văn an', '0373377580', '52 542 21625 Gần ủy ban nhân dân xã Cửu An', 'Nhà riêng', 'Thanh toán khi nhận hàng', 182800, 10, '2'),
-(19, '2021-11-07 10:29:48', 'Nguyễn Văn Nam', '09538753485', '24 217 7399 470 Trần Đại Nghĩa', 'Công ty', 'Thanh toán khi nhận hàng', 302800, 11, '3'),
-(20, '2021-11-07 21:02:17', 'Nguyễn Văn Nam', '0373377580', '11 101 1784 Gần ủy ban nhân dân xã Cửu An', 'Nhà riêng', 'Thanh toán khi nhận hàng', 315800, 11, '2'),
-(38, '2021-11-21 21:43:31', 'Nguyễn Bảo Cầm', '0967468703', 'Tỉnh Gia Lai - Thị xã An Khê - Xã Cửu An - Khu Tái Định Cư', 'Nhà riêng', 'Thanh toán khi nhận hàng', 482800, 1, '2'),
-(39, '2021-11-26 21:59:12', 'Đặng Ngọc Thư', '0373377580', 'Tỉnh An Giang - Thành phố Châu Đốc - Phường Châu Phú B - Gần ủy ban nhân dân xã Cửu An', 'Nhà riêng', 'Thanh toán khi nhận hàng', 402800, 11, '2');
+(1, '2025-11-28 22:14:52', 'Bảo Cầm', '0', 'Thành phố Đà Nẵng - Quận Ngũ Hành Sơn - Phường Hoà Hải - 470TDN', 'Công ty', 'Thanh toán khi nhận hàng', 1200800, 2, '3'),
+(2, '2025-11-28 22:32:05', 'Bảo Cầm', '0123456789', 'Thành phố Đà Nẵng - Quận Ngũ Hành Sơn - Phường Hoà Hải - 470TDN', 'Công ty', 'Thanh toán bằng ví điện tử', 580800, 2, '3');
 
 -- --------------------------------------------------------
 
@@ -11757,57 +11710,40 @@ CREATE TABLE `product` (
 --
 
 INSERT INTO `product` (`ProductID`, `ProductName`, `CategoryID`, `BrandID`, `ProductDesc`, `Price`, `Quantity`, `ProductStatusID`, `Picture`, `Picture2`, `UpdateDate`, `QuantityRating`) VALUES
-(7, 'Áo sơ mi nam nữ', 1, 4, '<p>Áo sơ mi mang phong cách rộng dãi, kiểu cách Unisex sẽ là xu hướng chung của giới trẻ năm 2021</p>', 83000, 10, 1, 'aosominamnu1.png', 'aosominamnu2.png', '11:21 03-10-2021', 2),
-(8, 'Áo PoLo From Rộng', 1, 4, '<p>Áo Polo from rộng Ulzzang Hàn Quốc logo bò sữa hình thêu kết hợp đường chỉ may ngoài cùng túi đã làm lên sản phẩm tuyệt đỉnh cho Nam thanh nữ tú với Chất cotton dày dặn thấm hút mồ hôi.</p>', 55000, 10, 1, 'aopoloformrong1.png', 'aopoloformrong2.png', '11:24 03-10-2021', 0),
-(9, 'Áo croptop Tay Phồng', 1, 4, '<p>- Vải mát mặc hè hợp model, hợp mùa - Dễ dàng phối cùng với tất cả các loại quần jean ngắn, jean dài, quần thun, chân váy .... 😉😉 - Chất lượng Vượt trội so với giá, 😍</p>', 42000, 8, 1, 'aocroptotayphong1.png', 'aocroptotayphong2.png', '12:44 03-10-2021', 0),
-(11, 'Áo Bomber Jacket ', 1, 4, '<p>Chất dù chính phẩm nhập mát mẻ, hai lớp dày dặn, form dáng rộng rãi, có túi trong tiện lợi, màu trắng tôn da dễ mặc dễ phối đồ.&nbsp;</p>', 150000, 10, 1, 'aobomber1.png', 'aobomber2.png', '12:05 03-10-2021', 0),
-(12, 'Áo thun gân ngắn', 1, 4, '<p>Chất vải: Polyester Thành phần: 30% Dáng áo: Vừa vặn Phong cách: Nữ tính/Quyến rũ Chiều dài tay áo: Tay ngắn</p>', 71000, 12, 2, 'aothunganngan2.png', 'aothunganngan1.png', '12:13 03-10-2021', 0),
-(13, 'Áo phông rộng Aqua2ma', 1, 4, '<p>✔️ Xuất sứ: Việt Nam ✔️ Chất liệu: Chất vải có sự co giãn tốt chống bị nhăn do có thành phần polyester nhưng vẫn giữ được tính chất như thấm hút mồ hôi tốt, mềm mịn, bóng và có độ bền cao của cotton. ✔️ Form áo: Áo phông rộng. ✔️ Size áo: từ 40- 70kg ✔', 67500, 12, 2, 'aophongrong1.png', 'aophongrong2.png', '12:18 03-10-2021', 0),
-(14, 'ÁO TIỂU THƯ TAY PHỒNG', 1, 4, '<p>Hàng giống 98%. K nhận đổi trả với trường hợp: đã bóc tem, mặt chật, áo k đẹp, chất vải k đẹp, k thích. Hi</p>', 34000, 12, 2, 'aotieuthu2.png', 'aotieuthu1.png', '12:23 03-10-2021', 0),
-(15, 'Áo xuông dài tay', 1, 4, '<p>☀️chất liệu sản phẩm Da cá 👕👚 Hàng nam nữ của shop là hàng freesize 🏹Thiết kế cho Nam và Nữ đều mặc được. 👕From nam : cao m7 nặng 68kg đổ lại mặc ok 👚From nữ : cao m62 nặng 55kg đổ lại là đẹp nhé ⭐️Mẫu chủ đạo với màu như ảnh❤️❤️❤️❤️ 🌹Các sp của shop đ', 35000, 24, 2, 'aoxuongdai1.png', 'aoxuongdai2.png', '12:26 03-10-2021', 0),
-(16, 'Áo lụa 2 dây nữ', 1, 4, '<p>Áo lụa 2 dây nữ cổ đổ thiết kế cao cấp lụa satin ngoc trai, Áo 2 dây lụa nữ cổ trễ thiết kế hàng đẹp Daudoo Boutique QATE A11 THÔNG TIN SẢN PHẨM - Tên sản phẩm: Áo lụa 2 dây nữ cổ đổ thiết kế cao cấp - Cân nặng: Từ 40kg đến 70kg - Chất liệu: Áo lụa 2 d', 89000, 24, 3, 'aolua2day1.png', 'aolua2day2.png', '12:28 03-10-2021', 0),
-(17, 'Áo bra tập gym', 1, 4, '<p>Áo bra tập gym, áo ngực tập yoga, aerobic, zumba, thể thao nữ tôn vòng ngực, co giãn tốt, mặc ôm dáng, ôm body SIZE: dựa trên bảng size được đi kèm theo sản phẩm ( ấn nút thêm vào giỏ hàng &gt;&gt; xem bảng size) Dù sản phẩm tốt thế nào cũng không thể ', 135000, 12, 3, 'aobra1.png', 'aobra2.png', '12:31 03-10-2021', 1),
-(18, 'Áo khoác bomber', 1, 4, '<p>Áo khoác bomber Will shop dù 2 lớp hình thêu chữ nổi Áo khoác BOMBER vải dù, đẹp, không co rút , mềm mịn, mặc siêu mát . Hình thêu không bong tróc Form rộng Unisex cho cả nam và nữ, Hình Shop tự chụp</p>', 148000, 10, 3, 'aokhoatbomber1.png', 'aokhoatbomber2.png', '12:35 03-10-2021', 0),
-(19, 'Áo khoác bomber ', 1, 4, '<p>- Áo khoác gió đầu sư tử chất liệu dù bóng đẹp, dày dặn, bên trong thêm lớp dù lót nha khách. - May kỹ đẹp, kiểu dáng lịch lãm, năng động, hợp thời trang - Freesize nam 63 kg trở lại (dưới 1m68) - Nữ 58kg trở lại (dưới 1m68) - Tư vấn tận tình, chăm sóc', 90000, 11, 3, 'aokhoatgio1.png', 'aokhoatgio2.png', '12:38 03-10-2021', 0),
-(23, 'Quần nike', 2, 1, '<p>Quần nike mềm mại giá rẻ</p>', 200000, 25, 1, 'Ban-u-M-i-Xu-t-Hi-n-Nike-AS-M-NK-Thrma-Sphr-Qu-n.jpg', 'Ban-u-M-i-Xu-t-Hi-n-Nike-AS-M-NK-Thrma-Sphr-Qu-n.jpg', '09:31 08-11-2021', 0),
-(25, 'Quần vải jean bò baggy', 2, 4, '<p>1. Thông tin sản phẩm - Chất liệu: Jean Cao Cấp Quảng Châu 2. Thông số sản phẩm SIZE: 27 - Chiều cao: 1m50 - 1m65, Cân nặng: 40 - 50 kg, Dài quần: 95 cm, Vòng eo 70 - 75 cm, Vòng mông: 80 - 87 cm SIZE: 28 - Chiều cao: 1m55 - 1m70, Cân nặng: 50 - 53,5 k', 150000, 24, 3, 'quanvaijean1.png', 'quanvaijean2.png', '16:22 10-11-2021', 0),
-(26, 'Quần dài ống suông cullotes', 2, 5, '<p>🌤🌤🌤FRESH AIR - NEW LOOK FOR THIS SUMMER 🌿🌿🌿Hè là mùa du ngoạn, là mùa để cùng nàng làm mới lại bản thân, làm cho mình thật xinh đẹp trong những chuyến đi. Hay chỉ đơn giản, mùa hè luôn là cơ hội để nàng diện những items hoạ tiết, đầy hoa hoè thả mình d', 280000, 6, 1, 'quandaithuon1.png', 'quandaithuon2.png', '16:28 10-11-2021', 0),
-(27, 'Set quần chip Just Bra', 2, 10, '<p>MÔ TẢ SẢN PHẨM - JB mới bổ sung thêm 1 set chip cực sang, xịn, mịn cho các nàng rồi nè - Chất liệu cotton mềm, mịn, độ co dãn của set này phải nói là tuyệt vời đó nàng ơi - Thiết kế quần cạp cao, ôm tới eo vừa giúp định hình eo lại vừa tạo cảm giác eo ', 169000, 24, 3, 'quanchip1.png', 'quanchip2.png', '16:32 10-11-2021', 0),
-(28, 'Quần short nam', 2, 1, '<p>Mẫu quần thể thao chất xi gió mặc siêu mát và lên form cực kì cá tính: Size từ 50-95kg Hàng xuất dư chính hãng khách hàng yên tâm chất vải ạ đủ các size ,M,L,XL,XXL</p>', 149000, 48, 2, 'quanshortnam1.png', 'quanshortnam2.png', '16:35 10-11-2021', 0),
-(29, 'Quần Nike Dáng Rộng', 2, 1, '<p>🏋️‍♀️🧘‍♂️BRAND MAKES YOU HEALTHY AND FASHIONABLE 🏋️‍♀️🧘‍♂️ 🏃‍♀️🏃‍♀️Exercise Makes Life Better🏃‍♀️🏃‍♀️ Product Number: / Material: Polyester Package: With Paper Bags 👇About Product👇 Q1: Is it authentic (Brand)? A1: There are real stores in our country, ', 818000, 24, 2, 'quannikedangrong1.png', 'quannikedangrong2.png', '16:37 10-11-2021', 0),
-(30, 'Quần tây thun loe', 2, 4, '<p>Bổ sung outfit ngày thường với mẫu quần tây vải thun xẻ trong mới về tại shop Chất liệu thun mỏng và tinh tế, ôm sát và tạo cảm giác thon dài cho đôi chân! Lưng quần siêu cao và ống suông nhẹ, vải thoáng khí, mng có thể mặc thoải mái trong thời tiết hè', 240000, 98, 1, 'quantaythun1.png', 'quantaythun2.png', '16:39 10-11-2021', 1),
-(31, 'QUẦN XÀ LỎN', 2, 4, '<p>QUẦN FREESIZE, CÓ BẢNG SIZE KÈM THEO FILE ẢNH. QUẦN KHỦNG LONG, CASUAL. CÚC TIN SHOP CÚC TIN 22/4 đường số 4, Bình Hưng Hoà, Bình Tân, HCM. HƯỚNG DẪN: gần AEON MALL Tân Phú, THPT BÌNH HƯNG HÒA không phải Bình Hưng Hòa A hoặc B ạ &lt;3 Liên hệ: 077 578 ', 51000, 49, 3, 'quanxalon1.png', 'quanxalon2.png', '16:41 10-11-2021', 0),
-(32, 'Quần Đùi Kitty', 2, 4, '<p>THÔNG TIN VỀ SẢN PHẨM - Kích thước: FREE SIZE &lt; 60kg tùy chiều cao - Chất liệu: Vải thun mịn mát - Xuất xứ: QUẢNG CHÂU - Chiều dài: 32cm Shop luôn cập nhập mẫu mới và đảm bảo chất lượng của từng sản phẩm, bạn hãy chat với shop nếu có bất kì câu hỏi ', 27000, 50, 3, 'quankity1.png', 'quankity2.png', '16:43 10-11-2021', 0),
-(33, 'Mũ lưỡi trai', 3, 4, '<p>MÔ TẢ SẢN PHẨM: Mũ lưỡi trai thêu chữ Memorie - Form dáng chuẩn, chắc chắn - Thiết kế may thêu tinh tế, sắc sảo và thời trang - Kiểu dáng: phù hợp cả nam và nữ. Đa phong cách, gọn nhẹ, năng động - Mùa sử dụng: xuân, hạ, thu, đông - Đối tượng sử dụng: n', 49000, 50, 2, 'muluoitrai2png.png', 'muluoitrai1.png', '12:59 12-11-2021', 0),
-(34, 'Mũ lông Cừu 3in1', 3, 4, '<p>Chất liệu: Vải lông thỏ 🧣 Màu sắc: Nhiều màu sắc khác nhau 🧣 Mũ lông xù kèm khăn quàng cổ và găng tay 3in1 được làm từ chất liệu vải lông thỏ mềm mại và ấm áp, cho bạn gái cảm giác vô cùng thoải mái khi mang 🧣 Mũ tai gấu 3in1 có thiết kế vô cùng thời t', 53999, 50, 2, 'mulongcuu1.png', 'mulongcuu2.png', '13:01 12-11-2021', 0),
-(35, 'Mũ Chống Nắng Nữ', 3, 4, '<p>Mô tả sản phẩm Mũ che nắng + khẩu trang chống nắng mới 2021 có lưới thông hơi - Nón che nắng vành rộng hoa văn thời trang trẻ trung ĐẸP rực rỡ mũ gồm 4 màu: Xanh Dương, Đỏ, Hồng phấn, Cà Tím ... - Mũ chống nắng kèm khẩu trang 2 lớp bảo vệ bụi tốt cho s', 50000, 50, 1, 'muchongnang1.png', 'muchongnang2.png', '13:03 12-11-2021', 0),
-(36, 'Mũ Len NAM NỮ', 3, 4, '<p>Mũ len beanie nhiều màu, chất liệu len cao cấp, mềm mịn tạo cảm giác thoải mái khi đội Hàng loại 1, bán bao giá toàn quốc</p>', 45000, 50, 3, 'mulenanmnu1.png', 'mulennamnu2.png', '13:04 12-11-2021', 0),
-(37, 'Nón Beanie vành tròn', 3, 4, '<p>MÔ TẢ SẢN PHẨM: Nón Beanie vành tròn - Form dáng chuẩn, chắc chắn - Thiết kế may thêu tinh tế, sắc sảo và thời trang - Kiểu dáng: phù hợp cả nam và nữ. Đa phong cách, gọn nhẹ, năng động - Mùa sử dụng: xuân, hạ, thu, đông - Đối tượng sử dụng: người lớn ', 45000, 50, 1, 'mubeanie1.png', 'mubeanie2.png', '13:06 12-11-2021', 0),
-(38, 'Mũ Len Mùa Đông', 3, 4, '<p>MÔ TẢ SẢN PHẨM ✔ Chất liệu: Len Lông cừu non Cao cấp ✔ Không gây kích ứng da đầu, không ra màu. ✔ Size: freesize, dễ dàng sử dụng cho cả nam nữ. ✔ Sản phẩm mũ len MLP được đóng gói cẩn thận , thích hợp làm quà tặng. ✔ Do màn hình và điều kiện ánh sáng ', 269000, 50, 1, 'mulenmuadong1.png', 'mulenmuadong2.png', '13:08 12-11-2021', 0),
-(39, 'Mũ Xô Bucket', 3, 4, '<p>📖 THÔNG TIN CHI TIẾT SẢN PHẨM 🌱 Chất liệu: Cotton 🌱 Size đầu: 56-58 🌱 Cam kết chất lượng đảm bảo, sản phẩm giống ảnh 100%</p>', 157000, 50, 3, 'muxo1.png', 'muxo2.png', '13:10 12-11-2021', 0),
-(40, 'Mũ Nón Len Smile ', 3, 4, '<p>Mũ Nón Len Smile Mặt Cười 5 màu - SẴN HÀNG Mũ Len Smile Mặt Cười 5 màu - SẴN HÀNG Chất liệu len 100% Họa tiết logo Smile Mặt Cười thêu nổi ấn tượng Free size unisex cực dễ phối đồ</p>', 57000, 50, 1, 'munonlen.png', 'munonlen2.png', '13:12 12-11-2021', 0),
-(41, 'Mũ/Nón Cói Rộng', 3, 4, '<p>MŨ - NÓN CÓI ĐI BIỂN RỘNG VÀNH : (Nếu nón cói bị mất form dáng, bạn dùng bàn là hơi nước hơ lên chỗ cần chỉnh. Nón sẽ về chuẩn form dáng nhé!) 👒 Chất liệu : Cói tổng hợp dày dặn. 👒 Kích thước : đường kính mũ 44cm - Lòng mũ : 18 cm - Vành mũ : 12.5 cm -', 38000, 50, 1, 'mucoirong1.png', 'mucoirong2.png', '13:14 12-11-2021', 0),
-(42, 'Mũ thời trang hoạ tiết Gucci', 3, 7, '<p>❤️Thông tin sản phẩm: - Form dáng chuẩn, chắc chắn - Thiết kế may thêu tinh tế, sắc sảo và thời trang - Kiểu dáng: phù hợp cả nam và nữ. Đa phong cách, gọn nhẹ, năng động Chất liệu thoáng mát, không tạo cảm giác hầm bí khi đội, cho bạn thoải mái diện t', 420000, 50, 2, 'mugucci.png', 'mugucci2.png', '13:16 12-11-2021', 0),
-(43, 'Thắt lưng nam da bò', 4, 4, '<p>Thắt lưng luôn là phụ kiện không thể thiếu cũng như không bao giờ lỗi mốt đối với các tín đồ thời trang, dù bạn theo đuổi phong cách nào đi chăng nữa. Thắt lưng nam là một trong những phụ kiện mà các đấng mày râu muốn được sở hữu. Với xu hướng thời tra', 80000, 50, 1, 'thatlungnamdabo1.png', 'thatlungnamdabo2.png', '13:18 12-11-2021', 0),
-(44, 'Thắt lưng nữ', 4, 4, '<p>🍒🍒🍒 Đai váy thời trang cá tính đa dạng Các bạn kéo ảnh sang để xem video chi tiết từng mặt và sản phẩm nhé - Thắt lưng nữ shop đã ĐỤC SẴN cho các khách eo từ 60-85cm, các khách cứ yên tâm mua về là dùng, Các khách eo ngoài 85cm thì GHI CHÚ Ở ĐƠN HÀNG s', 35000, 50, 1, 'thatlungnu1.png', 'thatlungnu2.png', '13:20 12-11-2021', 0),
-(45, 'THẮT LƯNG NAM NỮ', 4, 4, '<p>🌵Mẫu thăt lưng Nam nữ xịn xò này Meo vừa tìm được bán siêu siêu chạy mấy chế ơi, phong cách style hàn xẻng vô cùng, rất khó tìm nay Meo đã cập bến ạaaa🌵 • Đeo siêu cá tính - phong cách • Size 2.4 x105cm • Nam nữ đều dùng được nha! Đặc biệt là các bạn n', 65000, 50, 1, 'thatlungnamnu1.png', 'thatlungnamnu2.png', '13:22 12-11-2021', 0),
-(46, 'Dây nịt lỗ tròn', 4, 4, '<p>Dây nịt là phụ kiện mua bao nhiu cũng ko đủ nè^^ 🌲Đặc biệt : mẫu này shop bán chất da SIÊU DÀY ĐẸP, không phải loại da xấu mỏng nhăn đâu ạ các bạn mua hàng thông thái xem đánh giá sp rất tốt nha⭐️⭐️ •Đủ các kiểu để mix đủ mẫu quần áo khác nhau luôn đó ', 65000, 50, 1, 'daynitlotron1.png', 'daynitlotron2.png', '13:24 12-11-2021', 0),
-(47, 'Thắt lưng trong suốt', 4, 4, '<p>Thắt lưng Hologram mặt vuông + kèm dây xích - Dây nịt trong suốt Unisex cá tính lấp lánh Size: 4cmx 105cm • Cực dễ mix đồ • Cá tính- mới mẻ • Mặc gì cũng hợp nha • Có nhiều phân loại cho KH lựa chọn phù hợp với nhiều Style quần áo khác nhau.&nbsp;<br>&', 39000, 50, 1, 'thatluntrongsuot1.png', 'thatluntrongsuot2.png', '13:25 12-11-2021', 0),
-(48, 'Thắt Lưng Xích', 4, 4, '<p>Thông tin sản phẩm: 👉🏻 2 màu : vàng- bạc 👉🏻 chiều dài :110cm x bề ngang sợi xích 1.2cm Mẫu Dây nịt dây xích này cực kì độc đáo, phối đồ đảm bảo nổi bật luôn nhé :D</p>', 69000, 50, 2, 'thatlungxich1.png', 'thatlungxich2.png', '13:27 12-11-2021', 0),
-(49, 'Đai Váy', 4, 9, '<p>Đai Váy - Belt Xích Đính Đá Thương Hiệu Cao Cấp Xuất Xứ: Quảng Châu 💯 Không cần phải quần là áo lụa 💯 Không cần phải hàng hiệu đầy người 💯 Lại càng không cần trang sức lấp lánh</p>', 999000, 50, 2, 'daivaychanel1.png', 'daivaychanel2.png', '13:28 12-11-2021', 0),
-(50, 'Thắt Lưng Nam', 4, 4, '<p>I: THÔNG TIN SẢN PHẨM Thắt Lưng Nam/ Dây Nịt Nam mặt VS được làm bằng mặt thép không gỉ: - Mặt khóa hiện đại, sang trọng - Thiết kế thời trang, lịch lãm - Đường chỉ may tinh tế. - Kiểu khóa nhét trong dây đục lỗ II: TÍNH NĂNG ĐẶC BIỆT CAO CẤP CỦA SẢN P', 70000, 50, 2, 'thatlungnam1.png', 'thatlungnam2.png', '13:30 12-11-2021', 0),
-(51, 'Dây nịt HÌNH THOI', 4, 4, '<p>👉🏻👉🏻 MỘT EM DÂY NỊT - THẮT LƯNG vừa làm ĐAI VÁY vừa mix đồ kiểu Hàn Xẻnh cực kì nè🌵 • Bản ngang dây nhỏ 1.8cm và vừa là 2.cm • Chiều dài dây 100-105cm • ĐẶC BIỆT, dây này KHÔNG CẦN ĐỤC LỖ - EO NÀO CŨNG VỪA, chỉ cần xỏ vào là dùng ngay, rất chắc chắn - ', 39000, 50, 3, 'thatlunghinhthoi1.png', 'thatlunghinhthoi2.png', '13:32 12-11-2021', 0),
-(52, 'Giày Custom Air Jordan', 5, 4, '<p>✔️Về sản phẩm: Shop cam kết cả về chất liệu cũng như hình dáng ( đúng với những gì được nêu bật trong phần mô tả sản phẩm). ✔️Về giá cả: Shop nhập với số lượng nhiều và trực tiếp nên chi phí sẽ cực cạnh tranh nhé. ✔️Về dịch vụ: Khách hàng có thể hoàn t', 297000, 50, 1, 'giaycustomrair1.png', 'giaycustomrair2.png', '13:35 12-11-2021', 0),
-(53, 'Giày 𝐌𝐋𝐁 Boston', 5, 4, '<p>✔️ Kiểu dáng hot trend của năm nay và còn kéo dài trong những năm tiếp theo. ✔️ Giày đẹp, nhẹ, bền. Giá phải chăng phù hợp với các bạn học sinh, sinh viên. Có thể làm giày đôi, giày nhóm. Thích hợp đi chơi, du lịch, chạy bộ, gym, đi học, đi làm... ✔️ D', 245000, 50, 1, 'giayboston1.png', 'giayboston2.png', '13:36 12-11-2021', 0),
-(54, 'Giày Nike Gucci', 5, 1, '<p>✔️ UY TÍN Là thứ tồn tại duy nhất ✔️ Số lượng hàng gửi đi nhiều nên vẫn sẽ có đôi bị lỗi nên mong các bạn thông cảm , Bên mình hỗ trợ đổi trả hàng free trong các trường hợp như này ạ . ✔️ Ảnh này bên mình tự chụp các bạn có thể vào sản phẩm để xem thêm', 243000, 50, 2, 'giaynikegucci1.png', 'giaynikegucci2.png', '13:58 12-11-2021', 0),
-(55, 'Giày Sneaker MLB NY_Gucci', 5, 7, '<p>Thông tin giày: 👟Chất liệu : Vải Canvas 👟 Đế giày: Cao su thiên nhiên 100% chống chơn trượt, độ bám mặt đường cao 👟 Lót giày : Công nghệ cupsole memory foam độ êm tuyệt đối khi mang . Phù hợp sử dụng các hoạt động hằng ngày, đi làm đi chơi…</p>', 297000, 49, 2, 'giaygucci1.png', 'giaygucci2.png', '13:59 12-11-2021', 0),
-(56, 'Giày Sục Nữ Vải', 5, 4, '<p>- Trẻ trung, cá tính, hở gót tiện dụng và mát mẻ - Phù hợp với mọi lứa tuổi - Màu sắc basic dễ phối đồ - Phù hợp với đi chơi, đi du lịch - Fullsize , form chuẩn, đế cao 3cm - Size Giày Thể Thao Nữ - Chiều Dài Chân Ib cho Shop để được tư vấn size chuẩn ', 249000, 50, 1, 'giaysucnu1.png', 'giaysucnu2.png', '13:42 12-11-2021', 0),
-(57, 'GIÀY AIR JORDAN 1', 5, 4, '<p>✔️ Kiểu dáng hot trend của năm nay và còn kéo dài trong những năm tiếp theo. ✔️ Giày đẹp, nhẹ, bền. Giá phải chăng phù hợp với các bạn học sinh, sinh viên. Có thể làm giày đôi, giày nhóm. Thích hợp đi chơi, du lịch, chạy bộ, gym, đi học, đi làm... ✔️ D', 450000, 50, 2, 'giayjodan1.png', 'giayjodan2.png', '13:44 12-11-2021', 0),
-(58, 'Giày sneaker Vans Caro', 5, 2, '<p>- Tên sản phẩm: Giày Lười Nam Nữ - Giày Thể Thao Slip On Vans Caro kẻ sọc đen trắng cá tính, đế êm lót da Cao Cấp D18 - Chất Liệu mặt trong giày: Vải khử mùi - Chất liệu mặt ngoài giày: Vải sợi thoáng khí cao cấp - Chất liệu đế: Cao su tổng hợp - Đế ch', 400000, 50, 3, 'giayvancaro1.png', 'giayvancaro2.png', '13:48 12-11-2021', 0),
-(59, 'Giày cao gót ', 5, 10, '<p>MÔ TẢ SẢN PHẦM: Giày cao gót khoét eo gót nhọn siêu sang/giày nữ công sở Pun Shoes - Sản phẩm: Giày cao gót khoét eo gót nhọn siêu sang/giày nữ công sở Pun Shoes - Chiều cao: 7cm. - Màu sắc: Màu đen và màu trắng - Size: 35-39 (Form hơi lớn nên đi lùi 1', 259000, 50, 1, 'giaycaogot1.png', 'giaycaogot2.png', '13:51 12-11-2021', 0),
-(60, 'Giày Thể Thao YZ700', 5, 4, '<p>✔️Hàng lỗi nghiêm trọng do sản xuất; hàng giao sai mẫu, nhầm size. Anh/chị vui lòng inbox lại Shop để được hướng dẫn trả hàng/hoàn tiền và Shopee sẽ hỗ trợ 100% phí ship. ✔️Trường hợp bạn đổi giày do muốn đổi size, đổi mẫu khác thì cũng xin inbox lại s', 450000, 49, 1, 'yz1.png', 'yz2.png', '13:53 12-11-2021', 0),
-(61, 'Giày MC queen nam, nữ', 5, 4, '<p>• Đế giày được thiết kế chịu ma sát tốt, tăng chiều cao, nhẹ, êm, cân bằng và thoáng khí • Kiểu dáng hottrend của mùa hè năm nay. • Giày đẹp, nhẹ, bền • Có thể kết hợp với váy, jeans, sooc…. Đều phù hợp</p>', 200000, 50, 3, 'giayqueen1.png', 'giayqueen2.png', '13:55 12-11-2021', 0),
-(62, 'Giày Xvessel đế gỗ', 5, 4, '<p>🔥 Thấu hiểu nỗi nguời mua hàng trên sàn thương mại shop đặt uy tín lên hàng đầu và cam kết như sau : ✔️ Hoàn tiền 100% nếu nhận sản phẩm không giống hình. Tất cả các sản phẩm đăng bán đều được shop chụp hình và quay video bằng điện thoại để các bạn xem</p>', 250000, 40, 1, 'giayxvel1.png', 'giayxvel2.png', '21:43 07-12-2021', 0);
+(7, 'Áo Thun Kiểu Trễ Vai', 1, 5, '<p><strong>Áo thun trễ vai</strong> mang phong cách nữ tính và quyến rũ, giúp khoe nhẹ phần cổ vai thanh thoát. Chất thun mềm mịn, co giãn thoải mái, ôm vừa tôn dáng. Thiết kế trẻ trung, dễ phối cùng jean, chân váy hoặc quần tây, phù hợp đi chơi, dạo phố hay hẹn hò.</p><ul><li><strong>Màu sắc:</strong> Đen - Xám đậm</li><li><strong>Size:</strong> S/M/L</li></ul>', 405000, 100, 1, 'ao1.jpg', 'ao1_2.jpg', '17:06 28-11-2025', 2),
+(8, 'Áo Len Kiểu', 1, 5, '<p>Áo thun len là kiểu áo được làm từ chất liệu <strong>len mỏng – len dệt co giãn</strong>, mang form dáng giống áo thun nhưng có độ mềm, ấm và ôm dáng đặc trưng của len. Dưới đây là mô tả chi tiết để bạn tham khảo:</p><p><strong>Chất liệu:</strong> len dệt mịn, mềm, co giãn tốt, không quá dày.</p><p><strong>Form dáng:</strong> ôm nhẹ&nbsp;vừa người, tạo cảm giác gọn gàng.</p><p><strong>Kiểu cổ:</strong> cổ tròn</p><p><strong>Độ dài tay:</strong> tay ngắn</p><p><strong>Phong cách:</strong> dễ phối đồ – vừa nhẹ nhàng, nữ tính, vừa sang xịn theo kiểu Hàn.</p>', 499000, 100, 1, 'ao2.jpg', 'ao2_2.jpg', '17:05 28-11-2025', 0),
+(9, 'Áo Thun Len', 1, 5, '<p>Áo thun len là kiểu áo được làm từ chất liệu&nbsp;<strong>len mỏng – len dệt co giãn</strong>, mang form dáng giống áo thun nhưng có độ mềm, ấm và ôm dáng đặc trưng của len. Dưới đây là mô tả chi tiết để bạn tham khảo:</p><p><strong>Chất liệu:</strong>&nbsp;len&nbsp;mịn, mềm, co giãn tốt, không quá dày.</p><p><strong>Form dáng:</strong>&nbsp;ôm nhẹ&nbsp;vừa người, tạo cảm giác gọn gàng.</p><p><strong>Kiểu cổ:</strong>&nbsp;cổ tròn</p><p><strong>Độ dài tay:</strong>&nbsp;tay ngắn</p><p><strong>Phong cách:</strong>&nbsp;dễ phối đồ – vừa nhẹ nhàng, nữ tính, vừa sang xịn theo kiểu Hàn.</p>', 270000, 100, 1, 'ao3.jpg', 'ao3_2.jpg', '17:08 28-11-2025', 0),
+(11, 'Áo Thun Cổ Yếm', 1, 5, '<p>Áo mang phong cách <strong>Trẻ Trung</strong>, <strong>Quyến Rũ</strong> và <strong>Hiện Đại</strong>. Thiết kế <strong>cổ yếm</strong> giúp tôn lên phần vai – cổ thanh thoát, đồng thời tạo điểm nhấn gợi cảm nhưng vẫn tinh tế.<br>Dáng croptop ngắn vừa phải, ôm nhẹ cơ thể, giúp khoe khéo vòng eo thon gọn và tạo sự cân đối cho tổng thể trang phục. Chất <strong>Thun </strong>mềm mại, co giãn tốt, mang lại cảm giác thoải mái khi vận động. Item này dễ phối cùng quần jean, chân váy chữ A hoặc quần ống rộng để tạo nên nhiều phong cách khác nhau — từ năng động, cá tính đến thời trang, sành điệu khi đi chơi, dạo phố.</p>', 279000, 100, 1, 'ao4.jpg', 'ao4_2.jpg', '17:10 28-11-2025', 0),
+(12, 'Áo Thun Baby Tee', 1, 5, '<p>Áo kiểu croptop là lựa chọn lý tưởng cho những cô nàng yêu thích sự trẻ trung và phá cách. Thiết kế dáng ngắn giúp khoe khéo vòng eo thon gọn, tạo cảm giác năng động và thời trang. Dáng chuẩn kết hợp với chất liệu vải mềm mại, thoáng mát mang đến sự thoải mái suốt cả ngày dài.</p><p>Sản phẩm nổi bật với những chi tiết tinh tế như khóa kéo, cổ áo thanh lịch, có thể mặc đơn giản hoặc phối layer cùng áo thun để tạo điểm nhấn cá tính. Áo sơ mi croptop dễ dàng phối hợp với nhiều item khác như quần jeans, chân váy chữ A, quần ống rộng hoặc short, phù hợp cho nhiều hoàn cảnh: đi học, đi làm, dạo phố hay gặp gỡ bạn bè.</p><p>Với sự kết hợp hài hòa giữa phong cách hiện đại và tính ứng dụng cao, áo sơ mi croptop sẽ là “must-have item” trong tủ đồ của mọi cô nàng yêu thời trang.</p>', 369000, 50, 2, 'ao7.jpg', 'ao7_2.jpg', '17:21 28-11-2025', 0),
+(13, 'Áo Thun Kiểu', 1, 5, '<p>Áo thun kiểu nữ mang đến phong cách trẻ trung, hiện đại và nữ tính. Sản phẩm được may từ chất liệu thun cao cấp mềm mịn, co giãn 4 chiều, thấm hút mồ hôi tốt giúp bạn luôn thoải mái suốt ngày dài. Thiết kế dáng ôm&nbsp;vừa vặn, dễ mặc, tôn dáng mà vẫn thuận tiện vận động. Điểm nhấn nằm ở phần khóa kéo&nbsp;được cách điệu tinh tế, mang đến nét mới lạ và khác biệt so với áo thun basic thông thường. Kiểu dáng dễ phối hợp cùng nhiều trang phục như quần jean, chân váy, quần short hay quần âu để tạo nên nhiều phong cách khác nhau – từ năng động trẻ trung, thanh lịch công sở cho tới dạo phố cuối tuần. Áo thun kiểu nữ chính là lựa chọn hoàn hảo cho những ai yêu thích sự thoải mái nhưng vẫn muốn thể hiện gu thời trang cá tính.</p>', 377000, 50, 2, 'ao6_2.jpg', 'ao6_2.jpg', '17:16 28-11-2025', 0),
+(14, 'Áo Thun Form Rộng', 1, 5, '<p><strong>ÁO THUN FORM RỘNG 10211875 - \"ĐỈNH CAO\" PHONG CÁCH TỐI GIẢN &amp; THOẢI MÁI!&nbsp;</strong></p><p>Bạn đang \"săn lùng\" một chiếc áo thun vừa \"ghi điểm\" phong cách, vừa \"nuông chiều\" cảm giác tự do tối đa? Chào đón <a href=\"https://j-p.vn/products/ao-thun-chu-10211761\"><strong>Áo Thun Form</strong></a><strong> Rộng 10211875</strong> – \"item quốc dân\" đang \"khuấy đảo\" mọi tủ đồ, hứa hẹn biến bạn thành \"Fashion Icon\" chỉ trong tích tắc! Đây chính là \"bí kíp\" để bạn \"refresh\" tủ đồ và tự tin \"chinh phục\" mọi ánh nhìn, dù là đi học, đi làm hay dạo phố.</p><p><strong>VÌ SAO \"EM\" NÓ LẠI KHIẾN BẠN \"MÊ MẨN\" KHÔNG LỐI THOÁT?&nbsp;</strong></p><ul><li><strong>Chất Liệu Thun Cao Cấp - Mềm Mịn, Thoáng Mát \"Tuyệt Đối\":</strong> \"Chân ái\" cho mọi thời tiết! Áo được làm từ chất liệu thun cao cấp, mang lại cảm giác mềm mại, nhẹ nhàng và cực kỳ thoáng khí. Khả năng thấm hút mồ hôi tốt giúp bạn luôn cảm thấy dễ chịu, khô ráo dù hoạt động cả ngày dài.</li><li><strong>Phom Dáng Rộng \"Thần Sầu\" - \"Giải Phóng\" Cơ Thể, Che Khuyết Điểm \"Hoàn Hảo\":</strong> Thiết kế form rộng trendy không chỉ mang lại sự thoải mái \"không giới hạn\" trong từng cử động mà còn là \"người bạn đồng hành\" lý tưởng giúp che đi mọi điểm chưa ưng ý trên cơ thể một cách khéo léo.</li><li><strong>Thiết Kế Tối Giản \"Tinh Tế\" - Dễ Dàng \"Biến Hóa\" Mọi Phong Cách:</strong> Với thiết kế basic nhưng không hề nhàm chán, chiếc áo này là nền tảng hoàn hảo cho mọi outfit.</li><li><strong>\"Bảng Màu\" Kinh Điển - \"Bắt Trọn\" Mọi Cá Tính:</strong><ul><li><strong>Đen \"Quyền Lực &amp; Cá Tính\":</strong> Gam màu đen kinh điển, \"hack dáng\" tuyệt đối</li><li><strong>Trắng \"Thuần Khiết &amp; Tươi Sáng\":</strong> Sắc trắng basic mang đến vẻ đẹp thuần khiết, năng động và cực kỳ dễ dàng kết hợp với mọi gam màu, giúp bạn \"thắp sáng\" cả set đồ.</li></ul></li></ul>', 329000, 100, 2, 'ao8.jpg', 'ao8_2.jpg', '17:22 28-11-2025', 0),
+(15, 'Áo Thun Ba Lỗ Dáng Ngắn ', 1, 5, '<p><strong>ÁO THUN BA LỖ - \"TINH HOA\" CỦA VẺ ĐẸP SEXY &amp; NĂNG ĐỘNG ĐÓN HÈ!&nbsp;</strong></p><p>Bạn đang tìm kiếm một \"siêu phẩm\" thời trang vừa \"ăn gian\" vóc dáng, vừa tôn lên đường cong quyến rũ, lại cực kỳ linh hoạt để \"cân\" mọi outfit? Chào đón <a href=\"https://j-p.vn/products/thun-ba-lo-10109925\"><strong>Áo Thun Ba Lỗ</strong></a> – \"hot item\" đang \"làm mưa làm gió\" giới mộ điệu, hứa hẹn biến bạn thành tâm điểm mọi ánh nhìn một cách đầy tinh tế!</p><p><strong>VÌ SAO \"EM\" NÓ LẠI KHIẾN BẠN \"MÊ MẨN\" KHÔNG LỐI THOÁT?&nbsp;</strong></p><ul><li><strong>Chất Liệu Thun Cotton Mềm Mịn - Thoáng Mát \"Tuyệt Đối\":</strong>&nbsp;Đây chính là \"chân ái\" cho những ngày nóng bức, giúp bạn luôn thoải mái, dễ chịu dù hoạt động cả ngày dài, từ đi gym, yoga đến dạo phố.</li><li><strong>Phom Dáng Ôm Vừa Vặn - \"Thần Sầu\" Tôn Dáng &amp; Khoa Khéo Đường Cong:</strong> Thiết kế ba lỗ ôm vừa vặn nhưng không gây khó chịu, khéo léo khoe trọn bờ vai thon thả, vòng eo con kiến và đường cong cơ thể một cách tinh tế.</li></ul>', 269000, 240, 2, 'ao9.jpg', 'ao9_2.jpg', '17:24 28-11-2025', 0),
+(16, 'Áo Thun Kiểu NT', 1, 5, '<p>Áo thun ôm tay ngắn, có cổ tròn cơ bản, mang phong cách thể thao và năng động. Điểm nhấn của áo là các đường viền đen chạy dọc thân áo và trên vai, tạo hiệu ứng thị giác thon gọn và khỏe khoắn. Áo được làm từ chất liệu thun co giãn, ôm sát cơ thể giúp tôn dáng nhưng vẫn đảm bảo sự thoải mái khi vận động. Áo có logo nhỏ ở ngực trái.</p><p><strong>Thông tin sản phẩm:</strong></p><p><strong>Màu sắc:</strong> Xám, Trắng</p><p><strong>Kích cỡ:</strong> S, M</p>', 339000, 240, 3, 'ao10.jpg', 'ao10_2.jpg', '17:26 28-11-2025', 0),
+(17, 'Áo Sơ Mi Sọc', 1, 5, '<p><strong>Áo sơ mi sọc</strong> là lựa chọn hoàn hảo cho những ai yêu thích phong cách thanh lịch nhưng vẫn trẻ trung, năng động. Thiết kế sọc tinh tế giúp người mặc trông cao và thon gọn hơn, phù hợp cho nhiều hoàn cảnh: đi làm, đi học hay dạo phố.</p><p>&nbsp;</p><p><strong>Ưu điểm nổi bật:</strong></p><ul><li>Đường sọc dọc giúp tạo cảm giác cao và gọn dáng.</li><li>Chất liệu thoáng mát, thấm hút tốt, phù hợp cả mùa hè.</li><li>Dễ phối: mix cùng quần jean, quần tây, chân váy hoặc layer ngoài áo thun.</li><li>Phù hợp nhiều phong cách: công sở – năng động – casual – vintage.</li></ul>', 548000, 119, 3, 'ao11.jpg', 'ao11_1.jpg', '18:20 28-11-2025', 1),
+(23, 'Quần Ống Rộng', 2, 5, '<p><strong>Quần ống rộng</strong> không chỉ giúp che khuyết điểm hiệu quả mà còn tạo hiệu ứng <strong>kéo dài chân</strong> và mang lại vẻ ngoài <strong>thanh lịch, phóng khoáng</strong>. Từ phong cách <strong>công sở</strong> chuyên nghiệp đến vẻ ngoài <strong>street style</strong> năng động, <strong>quần ống rộng</strong> luôn là item linh hoạt không thể thiếu trong tủ đồ của phái đẹp.</p>', 539000, 250, 1, 'quan1.jpg', 'quan1_1.jpg', '18:24 28-11-2025', 0),
+(25, 'Quần Ống Rộng Lưng Chun ', 2, 5, '<p><strong>Quần Linen Ống Rộng J-P Fashion: Phong Cách Hè Đa Năng – 3 Màu, Đủ Size!</strong></p><p>Nâng tầm phong cách mùa hè của bạn với Quần Ống Rộng Linen từ thương hiệu J-P Fashion! Thiết kế ống rộng thời thượng không chỉ mang lại sự thoải mái tối đa mà còn khéo léo tôn dáng, phù hợp với mọi vóc dáng.<br>Chất liệu linen tự nhiên, thoáng mát là lựa chọn hoàn hảo cho những ngày nắng nóng.</p><p>Điểm nhấn với lưng thun có dây rút tiện lợi và túi hai bên đầy tiện ích (chi tiết như hình).<br>Đặc biệt, J-P Fashion mang đến 3 lựa chọn màu sắc trẻ trung, dễ phối đồ:</p><ul><li><strong>Xanh Matcha:</strong> Tươi mới, độc đáo.</li><li><strong>Kem:</strong> Nhẹ nhàng, thanh lịch.</li><li><strong>Đen:</strong> Sang trọng, cá tính.</li></ul>', 589000, 240, 1, 'quan2.jpg', 'quan2_2.jpg', '18:26 28-11-2025', 0),
+(26, 'Quần Ống Loe', 2, 5, '<p>Mẫu này dành cho đối tượng đi làm, cần sự thoải mái nhưng vẫn sang trọng.</p><blockquote><p><strong>Quần Tây Ống Loe – Thanh Lịch &amp; Sang Trọng</strong></p><p><strong>Chất liệu:</strong> Vải tuyết mưa (hoặc Vitex) cao cấp, mềm mịn, không nhăn nhàu, thoáng mát cả ngày dài.</p><p><strong>Form dáng:</strong> Chuẩn size, lưng cao giấu bụng, ống loe vừa phải tạo nét duyên dáng, mềm mại cho từng bước đi.</p><p><strong>Ứng dụng:</strong> Hoàn hảo để mặc đi làm, đi họp hay hẹn hò. Dễ dàng mix cùng blazer hoặc áo kiểu.</p><p>Sự lựa chọn tinh tế nâng tầm khí chất quý cô công sở.</p></blockquote>', 629000, 60, 1, 'quan3.jpg', 'quan3_1.jpg', '18:33 28-11-2025', 0),
+(28, 'Quần Jean Ống Suông', 2, 5, '<p>Chào nàng yêu phong cách tối giản! \"Upgrade\" tủ đồ của bạn với chiếc <a href=\"https://j-p.vn/products/jean-ong-suong-11110569\">quần jean ống suông</a> dài basic màu kem này - item \"must-have\" cho mọi cô gái!</p><h2><strong>Chất Jean Bền Bỉ, Dáng Suông Thanh Lịch</strong></h2><p>Chất liệu jean mềm mại, bền bỉ, mang đến cảm giác thoải mái suốt ngày dài. Thiết kế ống suông dài basic, không kén dáng, giúp tôn lên đôi chân thon dài và tạo vẻ ngoài thanh lịch, hiện đại. Gam màu kem trang nhã, dễ dàng phối hợp với mọi kiểu áo và phụ kiện.</p><h2><strong>\"Mix &amp; Match\" Đa Dạng Phong Cách</strong></h2><p>Dễ dàng tạo nên nhiều outfit ấn tượng:</p><ul><li><strong>Casual chic:</strong> Kết hợp cùng áo thun trơn và sneakers cho ngày dạo phố năng động.</li><li><strong>Thanh lịch công sở:</strong> Diện cùng sơ mi và giày loafers.</li><li><strong>Nổi bật cá tính:</strong> Mix cùng croptop và boots.</li></ul>', 495000, 100, 2, 'quan4.jpg', 'quan4_2.jpg', '19:54 28-11-2025', 0),
+(29, 'Quần Jean Ống Loe', 2, 5, '<p><strong>Quần Jean Ống Loe Nữ Thời Trang – Tôn Dáng, Sang Trọng, Cá Tính</strong><br>Quần jean ống loe nữ mang phong cách hiện đại pha chút retro cổ điển, giúp tôn lên đôi chân dài và vóc dáng thon gọn. Thiết kế cạp cao, ôm nhẹ phần đùi và loe tinh tế từ đầu gối trở xuống, tạo hiệu ứng dáng chuẩn và thanh lịch cho mọi outfit.</p><p><strong>Chi tiết sản phẩm:</strong></p><p><strong>Chất liệu:</strong> Denim cao cấp, co giãn nhẹ, thoáng mát và bền màu.</p><p><strong>Kiểu dáng:</strong> Ôm phần hông – đùi, loe nhẹ phần ống dưới.</p><p><strong>Màu sắc:</strong> Xanh denim cổ điển.</p><p><strong>Thiết kế:</strong> Cạp cao, khóa kéo kim loại chắc chắn, đường may tỉ mỉ.</p><p><strong>Size:</strong> Đủ size từ S → XL (phù hợp mọi dáng người).</p>', 499000, 100, 2, 'quan5.jpg', 'quan5_1.jpg', '19:57 28-11-2025', 0),
+(30, 'Jean Ống Rộng 1138', 2, 5, '<p><strong>Quần Jean Ống Loe Nữ Thời Trang – Tôn Dáng, Sang Trọng, Cá Tính</strong><br>Quần jean ống loe nữ mang phong cách hiện đại pha chút retro cổ điển, giúp tôn lên đôi chân dài và vóc dáng thon gọn. Thiết kế cạp cao, ôm nhẹ phần đùi và loe tinh tế từ đầu gối trở xuống, tạo hiệu ứng dáng chuẩn và thanh lịch cho mọi outfit.</p><p><strong>Chi tiết sản phẩm:</strong></p><p><strong>Chất liệu:</strong> Denim cao cấp, co giãn nhẹ, thoáng mát và bền màu.</p><p><strong>Kiểu dáng:</strong> Ôm phần hông – đùi, loe nhẹ phần ống dưới.</p><p><strong>Màu sắc:</strong> Xanh denim cổ điển.</p><p><strong>Thiết kế:</strong> Cạp cao, khóa kéo kim loại chắc chắn, đường may tỉ mỉ.</p><p><strong>Size:</strong> Đủ size từ S → XL (phù hợp mọi dáng người).</p>', 469000, 96, 1, 'quan6.jpg', 'quan6_1.jpg', '19:59 28-11-2025', 1),
+(31, 'Quần Jean Ống Ôm ', 2, 5, '<p><strong>Quần jean ống ôm</strong> với chất liệu denim co giãn, ôm nhẹ tôn dáng, giúp đôi chân trông thon gọn và dài hơn. Thiết kế trẻ trung, dễ phối cùng áo thun, áo kiểu hay sơ mi, phù hợp mặc đi làm, đi chơi hay dạo phố. Item cơ bản nhưng không bao giờ lỗi mốt, mang lại vẻ năng động và thời trang.</p>', 510000, 70, 3, 'quan7.jpg', 'quan7_1.jpg', '20:01 28-11-2025', 0),
+(32, 'Quần Ống Suông 1921', 2, 5, '<p><strong>QUẦN THUN ỐNG SUÔNG – BẢN GIAO HƯỞNG CỦA THOẢI MÁI &amp; PHONG CÁCH TỐI GIẢN!</strong></p><p>Bạn có đang tìm kiếm một \"người bạn đồng hành\" lý tưởng cho mọi hoạt động, từ thư giãn tại nhà đến những buổi dạo phố năng động? Quần Thun Ống Suông chính là \"chìa khóa\" mở ra thế giới của sự thoải mái đỉnh cao và phong cách không giới hạn!</p><p><strong>ĐIỀU GÌ LÀM NÊN SỨC HÚT ĐỘC ĐÁO CỦA \"TUYỆT PHẨM\" NÀY?</strong></p><ul><li><strong>CHẤT LIỆU THUN CAO CẤP – MỀM MẠI NHƯ LÀN DA THỨ HAI:</strong> Hãy cảm nhận sự vỗ về êm ái của chất liệu thun cao cấp khi bạn khoác lên mình chiếc quần này. Với độ co giãn tuyệt vời, khả năng thấm hút mồ hôi hiệu quả và bề mặt mềm mại, thoáng khí, chiếc quần mang lại cảm giác dễ chịu tối đa, không gò bó, giúp bạn tự do vận động và thoải mái suốt cả ngày dài.</li><li><strong>DÁNG ỐNG SUÔNG HIỆN ĐẠI – \"HACK\" DÁNG THANH THOÁT MỌI GÓC NHÌN:</strong> Phom dáng ống suông thời thượng không chỉ mang lại sự thoải mái tối đa trong từng cử động mà còn là \"bí quyết\" giúp đôi chân bạn trông dài hơn, thẳng hơn và thon gọn hơn đáng kể. Thiết kế này phù hợp với mọi dáng người, tạo nên vẻ ngoài thanh lịch, phóng khoáng và rất dễ dàng kết hợp.</li><li><strong>SẮC MÀU CỦA SỰ THANH LỊCH &amp; ĐA NĂNG:</strong><ul><li><strong>Đen Huyền Thoại:</strong> Gam màu quyền lực, sang trọng, che khuyết điểm hoàn hảo và dễ dàng kết hợp với mọi sắc thái, tạo nên vẻ ngoài cá tính, thanh lịch.</li><li><strong>Trắng Tinh Khôi:</strong> Biểu tượng của sự tinh khiết, trẻ trung và năng động, mang lại vẻ ngoài tươi sáng, dễ chịu cho những ngày hè.</li></ul></li><li><strong>KHẢ NĂNG \"MIX &amp; MATCH\" KHÔNG GIỚI HẠN – TỪ THƯ THÁI ĐẾN ĐẲNG CẤP:</strong><ul><li><strong>Phong cách Casual Năng Động:</strong> Kết hợp cùng áo thun basic, croptop và sneakers, sẵn sàng cho buổi dạo phố, tập gym hay cafe cùng bạn bè.</li><li><strong>Smart-Casual Tối Giản:</strong> Phối cùng áo sơ mi kiểu, blazer nhẹ và giày bệt hoặc sandals quai mảnh, tạo vẻ ngoài chuyên nghiệp, tinh tế cho công sở hoặc những buổi gặp gỡ.</li><li><strong>Thư giãn tại nhà:</strong> Đơn giản với áo ba lỗ, áo len mỏng, tận hưởng sự thoải mái tuyệt đối.</li></ul></li></ul>', 469000, 50, 3, 'quan8.jpg', 'quan8_1.jpg', '20:04 28-11-2025', 1),
+(33, 'Nón kết jeans', 3, 5, '<p>&nbsp;</p><p><strong>Thương hiệu: </strong><a href=\"https://j-p.vn/collections/vendors?q=j-p-fashion\">J-P Fashion</a>|<strong>Loại: </strong><a href=\"https://j-p.vn/collections/types?q=phu-kien\">Phụ kiện</a>|<strong>MSP:</strong> 11808546</p>', 99000, 99, 2, 'hat1.jpg', 'ha1_1.jpg', '20:22 28-11-2025', 0),
+(34, 'Nón kết chữ', 3, 5, '<p>Nón kết chữ</p>', 99000, 50, 2, 'hat2.jpg', 'hat2_1.jpg', '20:08 28-11-2025', 0),
+(35, 'Nón vành chữ', 3, 5, '<p>Nón vành chữ</p>', 149000, 50, 2, 'hat3.jpg', 'hat3_1.jpg', '20:16 28-11-2025', 0),
+(36, 'Nón vành', 3, 5, '<p>Nón vành</p>', 149000, 50, 3, 'hat4.jpg', 'hat4_1.jpg', '20:18 28-11-2025', 0),
+(37, 'Nón cói kiểu', 3, 5, '<p>Nón cói kiểu</p>', 199000, 50, 2, 'hat5.jpg', 'hat5_1.jpg', '20:20 28-11-2025', 0),
+(38, 'Nón beret', 3, 5, '<p><strong>Nón beret</strong></p>', 199000, 50, 2, 'hat6.jpg', 'hat6_1.jpg', '20:23 28-11-2025', 0),
+(43, 'Dây nịt 11210489', 4, 5, '<p>Dây nịt 11210489</p>', 199000, 50, 2, 'tl1.jpg', 'tl1_1.jpg', '20:40 28-11-2025', 0),
+(44, 'Dây nịt 11210490', 4, 4, '<p><strong>Dây nịt 11210490</strong></p>', 149000, 50, 2, 'tl2.jpg', 'tl2_1.jpg', '20:42 28-11-2025', 0),
+(45, 'Dây nịt 11210491', 4, 5, '<p>Dây nịt 11210491</p>', 149000, 50, 2, 'tl3.jpg', 'tl3_1.jpg', '20:43 28-11-2025', 0),
+(52, 'Giày nữ thời trang ELLY – EG248', 5, 4, '<p><strong>– Sản xuất:</strong> Việt Nam.<br><strong>– Màu sắc:</strong> Đen, trắng.<br><strong>– Size:</strong>&nbsp;35, 36, 37, 38, 39.<br><strong>– Độ cao gót</strong>: 10 cm.<br><strong>– Chất liệu:</strong>&nbsp;Da tổng hợp cao cấp.<br><strong>– Kiểu dáng:</strong>&nbsp;Giày cao gót.<br><strong>– Trọn bộ sản phẩm gồm:</strong> Giày nữ thời trang ELLY – EG248 + Túi đựng sản phẩm + Hộp.<br><strong>– Bảo hành:&nbsp;</strong>03 tháng (với lỗi do sản xuất).</p>', 697000, 50, 2, 's1.jpg', 's1_1.jpg', '20:59 28-11-2025', 0),
+(53, 'Giày nữ cao cấp ELLY – EGM213', 5, 4, '<p><strong>– Sản xuất:</strong> Trung Quốc (theo tiêu chuẩn chất lượng của thương hiệu ELLY).<br><strong>– Màu sắc:</strong>&nbsp;Đen, trắng.<br><strong>–&nbsp;Size:</strong> 35-36-37-38-39.<br><strong>– Độ cao gót:</strong> 8 cm.<br><strong>– Chất liệu:</strong> Da microfiber cao cấp.<br><strong>– Kiểu dáng:</strong>&nbsp;Sandal cao gót.<br><strong>– Trọn bộ sản phẩm gồm:</strong> Giày nữ cao cấp ELLY – EGM213 + Túi đựng sản phẩm + Hộp.<br><strong>– Bảo hành:&nbsp;</strong>06 tháng (với lỗi do sản xuất).</p>', 545000, 50, 2, 's2.jpg', 's2_2.jpg', '21:01 28-11-2025', 0),
+(54, 'Giày nữ cao cấp ELLY – EGM217', 5, 1, '<p><strong>– Sản xuất:</strong> Việt Nam.<br><strong>– Màu sắc:</strong>&nbsp;Đen, nude.<br><strong>–&nbsp;Size:</strong> 35-36-37-38-39.<br><strong>– Độ cao gót:</strong> 6.5 cm.<br><strong>– Chất liệu:</strong> Da microfiber cao cấp.<br><strong>– Kiểu dáng:</strong> Giày cao gót.<br><strong>– Trọn bộ sản phẩm gồm:</strong> Giày nữ cao cấp ELLY – EGM217 + Túi đựng sản phẩm + Hộp.<br><strong>– Bảo hành:&nbsp;</strong>06 tháng (với lỗi do sản xuất).</p>', 643000, 50, 2, 's3.jpg', 's3_1.jpg', '21:03 28-11-2025', 0),
+(56, 'Giày nữ thời trang ELLY – EG261', 5, 4, '<p><strong>– Sản xuất:</strong> Việt Nam.<br><strong>– Màu sắc:</strong> Đen, nude, vàng.<br><strong>– Size:</strong>&nbsp;35, 36, 37, 38, 39.<br><strong>– Độ cao gót</strong>: 7 cm.<br><strong>– Chất liệu:</strong> Da tổng hợp cao cấp.<br><strong>– Kiểu dáng:</strong>&nbsp;Sandal cao gót.<br><strong>– Trọn bộ sản phẩm gồm:</strong> Giày nữ thời trang ELLY – EG261 + Túi đựng sản phẩm + Hộp.<br><strong>– Bảo hành:&nbsp;</strong>03 tháng (với lỗi do sản xuất).</p>', 649000, 50, 2, 's4.jpg', 's4_1.jpg', '21:05 28-11-2025', 0),
+(57, 'Giày nữ thời trang ELLY – EG258', 5, 4, '<p><strong>– Sản xuất:</strong>&nbsp;Việt Nam.<br><strong>– Màu sắc:</strong> Đen, nude.<br><strong>– Size:</strong>&nbsp;35, 36, 37, 38, 39.<br><strong>– Độ cao gót</strong>: 8 cm.<br><strong>– Kiểu dáng:</strong>&nbsp;Sandal cao gót.<br><strong>– Chất liệu:</strong> Da tổng hợp cao cấp.<br><strong>– Trọn bộ sản phẩm gồm:</strong> Giày nữ thời trang ELLY – EG258 + Túi đựng sản phẩm + Hộp.<br><strong>– Bảo hành:&nbsp;</strong>03 tháng (với lỗi do sản xuất).</p>', 650000, 50, 2, 's5.jpg', 's5_1.jpg', '21:07 28-11-2025', 0),
+(58, 'Giày nữ cao cấp ELLY – EGM218', 5, 4, '<p><strong>– Sản xuất:&nbsp;</strong>Trung Quốc (theo tiêu chuẩn chất lượng của thương hiệu ELLY).<br><strong>– Màu sắc:</strong> Đen, nude.<br><strong>– Size:</strong>&nbsp;35, 36, 37, 38, 39<br><strong>– Độ cao gót</strong>: 5,5 cm.<br><strong>– Chất liệu:</strong>&nbsp;Da microfiber cao cấp.<br><strong>– Kiểu dáng:</strong>&nbsp;Boot cao gót.<br><strong>– Trọn bộ sản phẩm gồm:</strong> Giày nữ cao cấp ELLY – EGM218 + Túi đựng sản phẩm + Hộp.<br><strong>– Bảo hành:</strong>&nbsp;06 tháng (với lỗi do sản xuất).</p>', 749000, 49, 2, 's6.jpg', 's6_1.jpg', '21:10 28-11-2025', 0),
+(60, 'Giày sandal nữ thời trang EG279', 5, 4, '<p><strong>– Sản xuất:</strong> Việt Nam.<br><strong>– Màu sắc:</strong> Đen, nude.<br><strong>– Size:</strong>&nbsp;35, 36, 37, 38, 39<br><strong>– Độ cao gót</strong>: 8,5 cm.<br><strong>– Chất liệu:</strong> Da tổng hợp cao cấp.<br><strong>– Kiểu dáng:</strong> Sandal cao gót.<br><strong>– Trọn bộ sản phẩm gồm:</strong> Giày nữ cao cấp ELLY – EG279 + Túi đựng sản phẩm + Hộp.<br><strong>– Bảo hành:</strong> 03&nbsp;tháng (với lỗi do sản xuất).</p>', 699000, 49, 2, 's7.jpg', 's7_1.jpg', '21:15 28-11-2025', 0);
 
 -- --------------------------------------------------------
 
@@ -11865,10 +11801,8 @@ CREATE TABLE `rating` (
 --
 
 INSERT INTO `rating` (`RatingID`, `RatingComment`, `RatingName`, `RatingEmail`, `Rating_Star`, `ProductID`) VALUES
-(6, 'AO DEP LAM', 'Nguyen Minh Dien', 'minhdienne@gmail.com', 2, 7),
-(7, 'Áo của shop bạn đẹp quá, tuyệt vời. Mình cho hẳn 5 sao', 'Nguyễn Bảo Cầm', 'nmdien@gmail.com', 5, 7),
-(8, ' Chất liệu thun mỏng và tinh tế, ôm sát và tạo cảm giác thon dài cho đôi chân! Lưng quần siêu cao và ống suông nhẹ, vải thoáng khí, mng có thể mặc thoải mái trong thời tiết hè', 'nguyễn Bảo Cầm', 'dien@gmail.com', 4, 30),
-(9, 'Đồ rất đẹp ạ', 'Thư', 'dangngocthuak@gmail.com', 5, 17);
+(1, 'Sản phẩm đúng với mô tả, chất lượng tuyệt vời !', 'Bảo Cầm', 'baocam@gmail.com', 5, 32),
+(2, 'Đúng như kỳ vọng, sản phẩm nên mua !', 'Bảo Cầm', 'baocam@gmail.com', 5, 17);
 
 --
 -- Indexes for dumped tables
@@ -11985,13 +11919,13 @@ ALTER TABLE `rating`
 -- AUTO_INCREMENT for table `admin`
 --
 ALTER TABLE `admin`
-  MODIFY `AdminID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=48;
+  MODIFY `AdminID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=51;
 
 --
 -- AUTO_INCREMENT for table `brand`
 --
 ALTER TABLE `brand`
-  MODIFY `BrandID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `BrandID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
 
 --
 -- AUTO_INCREMENT for table `cart`
@@ -12009,19 +11943,19 @@ ALTER TABLE `categories`
 -- AUTO_INCREMENT for table `contact`
 --
 ALTER TABLE `contact`
-  MODIFY `ContactID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=25;
+  MODIFY `ContactID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
 
 --
 -- AUTO_INCREMENT for table `customer`
 --
 ALTER TABLE `customer`
-  MODIFY `CustomerID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=16;
+  MODIFY `CustomerID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `orderproduct`
 --
 ALTER TABLE `orderproduct`
-  MODIFY `OrderID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=40;
+  MODIFY `OrderID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- AUTO_INCREMENT for table `position`
@@ -12051,7 +11985,7 @@ ALTER TABLE `productstatus`
 -- AUTO_INCREMENT for table `rating`
 --
 ALTER TABLE `rating`
-  MODIFY `RatingID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=10;
+  MODIFY `RatingID` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=3;
 
 --
 -- Constraints for dumped tables

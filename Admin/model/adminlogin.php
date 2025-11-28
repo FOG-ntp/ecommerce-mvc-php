@@ -67,7 +67,7 @@ class Adminlogin
         $file_ext=strtolower(end($div));
         $upload_image="upload/".$file_name;
         if($fullname=="" || $gender=="" || $brithday=="" || $address=="" || $phone==""|| $email=="" || $username=="" || $pass==""){
-            $alert= "<span class='error'> Thương hiệu không được để trống</span>";
+            $alert= "<span class='error'> Thông tin không được để trống</span>";
             return $alert;
         }else{
             if(!empty($file_name)){

@@ -38,7 +38,7 @@
 	<!-- end sp mới -->
 
 	<!-- sp noi bật -->
-	<span><h5>SẢN PHẨM NỔi BẬT</h5></span>
+	<span><h5>SẢN PHẨM NỔI BẬT</h5></span>
 
 	<?php 
         if($data_sanphamao_left2!=NULL){ 

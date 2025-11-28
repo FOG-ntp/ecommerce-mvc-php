@@ -6,6 +6,8 @@
                     <div class="owl-carousel owl-carousel-quangcao owl-theme">
                         <div class="item item_slidequangcao"><img src="public/images/quangcao1.jpg"  alt=""></div>
                         <div class="item item_slidequangcao"><img src="public/images/quangcao2.jpg"  alt=""></div>
+                        <div class="item item_slidequangcao"><img src="public/images/quangcao3.jpg" alt=""></div>
+                    <div class="item item_slidequangcao"><img src="public/images/quangcao4.jpg" alt=""></div>
                     </div>
                 </div>
         </div>

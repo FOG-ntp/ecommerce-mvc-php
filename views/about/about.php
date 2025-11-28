@@ -16,8 +16,8 @@
 	<div class="container">
 		<div class="row">
 				<div class="col-lg-6">
-					<div class="about-img">
-						<img src="public/images/logo.png" alt=""  />
+					<div class="about-img" >
+						<img src="public/images/logo.png" alt=""  style="height: 80%; width: 80%;"/>
 					</div>
 				</div>
 				<div class="col-lg-6">
@@ -46,17 +46,13 @@
 <!-- team-member section start -->
 <p class="container" style="font-size: 30px;margin-top: 3%;color: black;">Đội Ngũ Hỗ Trợ</p>
 <div class="container">
-	<div class="row" style="margin-left:  4%;margin-right:  4%;">
+	<div class="row" style="margin-left:4%; margin-right:4%;">
 		<div class="col-4">
 			<div class="card card_gioithieu" >
 				<img src="public/images/tintuc2.jpg" alt="card background" class="card-img">
-                <img src="public/images/profile_dien.jpg" alt="profile image" class="profile-img">
-                <h1>Nguyễn Bảo Cầm</h1>
-                
-                <p class="about">
-                    Chúng ta có thể gặp nhiều thất bại nhưng chúng ta không được bị đánh bại.
-                </p>
-                <a href="#" class="btn btn_gioithieu">Theo dõi</a>
+                <img src="public/images/profile_thaothao.png" alt="profile image" class="profile-img">
+                <h1>Thảo Thảo</h1>
+                <a href="#" class="btn btn_gioithieu" style="color: #fff">Theo dõi</a>
                 <ul class="social-media">
                     <a href=""><i class="fab fa-facebook-f"></i></a>
                     <a href=""><i class="fab fa-twitter"></i></a>
@@ -68,13 +64,9 @@
     	<div class="col-4">
 			<div class="card card_gioithieu" >
 				<img src="public/images/tintuc2.jpg" alt="card background" class="card-img">
-                <img src="public/images/profile_thu.jpg" alt="profile image" class="profile-img">
-                <h1>Đặng Ngọc Thư</h1>
-                
-                <p class="about">
-                    Nếu bạn muốn trở nên kỳ quặc khác người, hãy tự tin khi làm điều đó.
-                </p>
-                <a href="#" class="btn btn_gioithieu">Theo dõi</a>
+                <img src="public/images/profile_baocam.png" alt="profile image" class="profile-img">
+                <h1>Bảo Cầm</h1>
+                <a href="#" class="btn btn_gioithieu" style="color: #fff">Theo dõi</a>
                 <ul class="social-media">
                     <a href=""><i class="fab fa-facebook-f"></i></a>
                     <a href=""><i class="fab fa-twitter"></i></a>
@@ -86,13 +78,9 @@
     	<div class="col-4">
 			<div class="card card_gioithieu" >
 				<img src="public/images/tintuc2.jpg" alt="card background" class="card-img">
-                <img src="public/images/tintuc3.jpg" alt="profile image" class="profile-img">
-                <h1>Thị Vi</h1>
-                
-                <p class="about">
-                    Nỗi đau bạn cảm thấy hôm nay là sức mạnh bạn sẽ cảm thấy vào ngày mai.
-                </p>
-                <a href="#" class="btn btn_gioithieu">Theo dõi</a>
+                <img src="public/images/profile_dinhtan.png" alt="profile image" class="profile-img">
+                <h1>Đình Tân</h1>
+                <a href="#" class="btn btn_gioithieu" style="color: #fff">Theo dõi</a>
                 <ul class="social-media">
                     <a href=""><i class="fab fa-facebook-f"></i></a>
                     <a href=""><i class="fab fa-twitter"></i></a>

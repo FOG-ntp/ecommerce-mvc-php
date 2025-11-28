@@ -9,18 +9,17 @@
 	<!-- css -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
 		integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-	<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+	<!-- <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css"> -->
 	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
 		integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
 	<!-- icon -->
-	<link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
+	<!-- <link href="/your-path-to-fontawesome/css/fontawesome.css" rel="stylesheet">
 	<link href="/your-path-to-fontawesome/css/brands.css" rel="stylesheet">
-	<link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet">
+	<link href="/your-path-to-fontawesome/css/solid.css" rel="stylesheet"> -->
 	<!--  -->
 	<link rel="stylesheet" href="public/css/css1.css">
 	<link rel="stylesheet" href="public/css/css2.css">
 	<link rel="stylesheet" href="public/css/custom.css">
-	<link rel="stylesheet" href="public/css/responsive.css">
 	<!-- css tu code -->
 	<link rel="stylesheet" href="public/css/trangchu.css">
 	<!-- css list san pham -->
@@ -30,7 +29,7 @@
 	<!-- tim kiem bang giong noi -->
 	<link rel="stylesheet" href="public/css/timkiemgiongnoi.css">
 	<!-- jquery ben ngoai -->
-	<script src="jquery-3.5.1.min.js"></script>
+	<!-- <script src="jquery-3.5.1.min.js"></script> -->
 	<!-- css owl -->
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
 	<link rel="stylesheet"
@@ -72,7 +71,7 @@
 	<link rel="stylesheet" href="public/css/gioithieu.css">
 	<!-- all css here -->
 	<!-- bootstrap v3.3.6 css -->
-	<link rel="stylesheet" href="public/css/bootstrap.min.css">
+	<!-- <link rel="stylesheet" href="public/css/bootstrap.min.css"> -->
 	<!-- animate css -->
 	<link rel="stylesheet" href="public/css/animate.css">
 	<!-- pe-icon-7-stroke -->

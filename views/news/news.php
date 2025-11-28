@@ -16,13 +16,13 @@
 			<div class="owl-carousel owl-carousel-tintuc1 owl-theme">
 	    		<div class="item item_cardtintuc">
 	    			<div class="card card_tintuc" >
-	  					<img src="public/images/tintuc1.png" class="card-img-top img_tintuc" alt="...">
+	  					<img src="public/images/tintuc1.jpg" class="card-img-top img_tintuc" alt="...">
 	  					<div class="day_tintuc">
-	  						<span>24 <br> TH8</span>
+	  						<span>20<br> T11</span>
 	  						
 	  					</div>
   						<div class="card-body">
-						    <h5 class="card-title title_card">Tiềm năng của ngành kinh doanh thời trang</h5>
+						    <h5 class="card-title title_card">Các loại vải trong thời trang</h5>
 						    <p class="card-text">
 						    	Đăng bởi : 
 						    	<span>
@@ -34,7 +34,7 @@
 						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
-						    	Thời trang luôn được biết đến là một trong những ngành hàng kinh doanh chiếm thị phần lớn nhất hiện nay bởi nhu cầu cũng như xu hướng thay đổi từng ngày...
+						    	Thời trang và chất liệu luôn luôn song hành với nhau. Việc hiểu rõ về các loại vải chính là chìa khóa để chọn trang phục ưng ý, vừa thoải mái lại hợp mốt. ...
 						    </p>
 						    <a href="#" class="btn btn-primary">Chi Tiết</a>
 					  </div>
@@ -42,13 +42,13 @@
 	    		</div>
 	    		<div class="item item_cardtintuc">
 	    			<div class="card card_tintuc" >
-	  					<img src="public/images/tintuc2.jpg" class="card-img-top img_tintuc" alt="...">
+	  					<img src="public/images/tintuc2.png" class="card-img-top img_tintuc" alt="...">
 	  					<div class="day_tintuc">
-	  						<span>24 <br> TH8</span>
+	  						<span>20 <br> T11</span>
 	  						
 	  					</div>
   						<div class="card-body">
-						    <h5 class="card-title title_card">Kiểu giày làm thon chân</h5>
+						    <h5 class="card-title title_card">Nguồn gốc và ứng dụng của vải tweed</h5>
 						    <p class="card-text">
 						    	Đăng bởi :
 						    	<span>
@@ -60,7 +60,7 @@
 						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
-						    	Những đôi giày có tông màu nude nhẹ nhàng phù hợp với chị em theo đuổi phong cách nữ tính. Gam màu trung tính dễ phối, có thể kết hợp cùng mọi màu sắc...
+						    	Vải Tweed là một chất liệu thời trang cổ điển đã xuất hiện và duy trì sức hút qua nhiều thế kỷ. Điều gì khiến vải Tweed trở thành biểu tượng của sự mạnh mẽ và sang trọng?...
 						    </p>
 						    <a href="#" class="btn btn-primary">Chi Tiết</a>
 					  </div>
@@ -68,13 +68,13 @@
 	    		</div>
 	    		<div class="item item_cardtintuc">
 	    			<div class="card card_tintuc" >
-	  					<img src="public/images/tintuc3.jpg" class="card-img-top img_tintuc" alt="...">
+	  					<img src="public/images/tintuc3.png" class="card-img-top img_tintuc" alt="...">
 	  					<div class="day_tintuc">
-	  						<span>24 <br> TH8</span>
+	  						<span>20 <br> T11</span>
 	  						
 	  					</div>
   						<div class="card-body">
-						    <h5 class="card-title title_card">Cô giáo Minh Thu ghi điểm nhờ những bộ cánh nhìn là mê</h5>
+						    <h5 class="card-title title_card">Vải Bamboo là gì và những đặc tính vượt trội</h5>
 						    <p class="card-text">
 						    	Đăng bởi :
 						    	<span>
@@ -86,7 +86,7 @@
 						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
-						    	Với ngoại hình xinh xắn, giọng nói thu hút và cách truyền đạt dí dỏm, cô giáo 9X này dường như phá bỏ mọi kỷ lục ở các lớp học livestream từng có tại Việt...
+						    	Vải bamboo đã xuất hiện từ lâu và ngày càng được ưa chuộng nhờ các đặc tính nổi bật như có độ bền cao, khá thông thoáng và thân thiện với môi trường. ...
 						    </p>
 						    <a href="#" class="btn btn-primary">Chi Tiết</a>
 					  </div>
@@ -101,13 +101,13 @@
 			<div class="owl-carousel owl-carousel-tintuc1 owl-theme">
 	    		<div class="item item_cardtintuc">
 	    			<div class="card card_tintuc" >
-	  					<img src="public/images/Mac-ao-ngan-voi-quan.jpg" class="card-img-top img_tintuc" alt="...">
+	  					<img src="public/images/tintuc4.png" class="card-img-top img_tintuc" alt="...">
 	  					<div class="day_tintuc">
-	  						<span>5 <br> TH11</span>
+	  						<span>18 <br> T11</span>
 	  						
 	  					</div>
   						<div class="card-body">
-						    <h5 class="card-title title_card">Mặc short lộ túi đi chợ mua hoa quả</h5>
+						    <h5 class="card-title title_card">Vải textile là gì? Đặc điểm và ứng dụng phổ biến</h5>
 						    <p class="card-text">
 						    	Đăng bởi : 
 						    	<span>
@@ -119,7 +119,7 @@
 						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
-						    	Diện quần ngắn lộ túi kết hợp áo quây đi mua hoa quả, cô gái khoe khéo "điểm vàng" cơ thể hấp dẫn ánh nhìn...
+						    	T extile không chỉ là một khái niệm đơn thuần về vải dệt, mà còn là một ngành công nghiệp đa dạng với nhiều ứng dụng...
 						    </p>
 						    <a href="#" class="btn btn-primary">Chi Tiết</a>
 					  </div>
@@ -127,13 +127,13 @@
 	    		</div>
 	    		<div class="item item_cardtintuc">
 	    			<div class="card card_tintuc" >
-	  					<img src="public/images/tramanh.png" class="card-img-top img_tintuc" alt="...">
+	  					<img src="public/images/tintuc5.png" class="card-img-top img_tintuc" alt="...">
 	  					<div class="day_tintuc">
-	  						<span>24 <br> TH8</span>
+	  						<span>18 <br> T11</span>
 	  						
 	  					</div>
   						<div class="card-body">
-						    <h5 class="card-title title_card">Trâm Anh “áp đảo” mọi khách mời tiệc cưới</h5>
+						    <h5 class="card-title title_card">Vải satin là gì? Tất cả thông tin cần biết</h5>
 						    <p class="card-text">
 						    	Đăng bởi :
 						    	<span>
@@ -145,7 +145,7 @@
 						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
-						    	Kỳ Duyên, Trâm Anh “áp đảo” mọi khách mời tiệc cưới vì chiếc váy xẻ sâu hun hút...
+						    	Vải Satin có nhiều ưu điểm vượt trội hơn so với những loại vải thông thường khác. Vậy nên loại vải này được sử dụng nhiều....
 						    </p>
 						    <a href="#" class="btn btn-primary">Chi Tiết</a>
 					  </div>
@@ -153,13 +153,13 @@
 	    		</div>
 	    		<div class="item item_cardtintuc">
 	    			<div class="card card_tintuc" >
-	  					<img src="public/images/cogiaomacdogoicam.png" class="card-img-top img_tintuc" alt="...">
+	  					<img src="public/images/tintuc7.png" class="card-img-top img_tintuc" alt="...">
 	  					<div class="day_tintuc">
-	  						<span>24 <br> TH8</span>
+	  						<span>18 <br> T11</span>
 	  						
 	  					</div>
   						<div class="card-body">
-						    <h5 class="card-title title_card">Cô giáo mặc legging gợi cảm đạp xe quanh hồ Tây</h5>
+						    <h5 class="card-title title_card">Vải canvas là gì? Ưu nhược điểm, phân loại</h5>
 						    <p class="card-text">
 						    	Đăng bởi :
 						    	<span>
@@ -171,7 +171,7 @@
 						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
-						    	Mới đây, trào lưu đạp xe quanh hồ Tây được nhiều chị em hưởng ứng nhiệt tình. Nhiều cô gái thu hút sự chú ý không kém khi diện quần bó, ngắn tập thể dục...
+						    	N ếu bạn yêu thích những chiếc túi từ vải canvas hay còn gọi là túi tote- món phụ kiện thời trang được săn đón hiện nay. ...
 						    </p>
 						    <a href="#" class="btn btn-primary">Chi Tiết</a>
 					  </div>
@@ -185,13 +185,13 @@
 			<div class="owl-carousel owl-carousel-tintuc1 owl-theme">
 	    		<div class="item item_cardtintuc">
 	    			<div class="card card_tintuc" >
-	  					<img src="public/images/hotgirlduocpham.jpg" class="card-img-top img_tintuc" alt="...">
+	  					<img src="public/images/tintuc6.png" class="card-img-top img_tintuc" alt="...">
 	  					<div class="day_tintuc">
-	  						<span>24 <br> TH8</span>
+	  						<span>18 <br> T11</span>
 	  						
 	  					</div>
   						<div class="card-body">
-						    <h5 class="card-title title_card">"Hot girl dược phẩm" diện váy lụa bị mất điểm</h5>
+						    <h5 class="card-title title_card">Vải umi là gì? Ưu nhược điểm, phân loại</h5>
 						    <p class="card-text">
 						    	Đăng bởi : 
 						    	<span>
@@ -203,7 +203,7 @@
 						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
-						    	Seo Yoo A là "hot girl dược phẩm" được nhiều người biết đến trên mạng xã hội vì từng kinh doanh mặt hàng này. Không chỉ thế, cô còn là chủ của một thương hiệu may mặc riêng...
+						    	Vải Umi được sử dụng phổ biến trong ngành may mặc hiện nay. Vậy loại vải này có những ưu và nhược điểm gì mà lại phổ biến như vậy?...
 						    </p>
 						    <a href="#" class="btn btn-primary">Chi Tiết</a>
 					  </div>
@@ -211,13 +211,13 @@
 	    		</div>
 	    		<div class="item item_cardtintuc">
 	    			<div class="card card_tintuc" >
-	  					<img src="public/images/mynuhangchau.jpg" class="card-img-top img_tintuc" alt="...">
+	  					<img src="public/images/tintuc8.png" class="card-img-top img_tintuc" alt="...">
 	  					<div class="day_tintuc">
-	  						<span>24 <br> TH8</span>
+	  						<span>16 <br> T11</span>
 	  						
 	  					</div>
   						<div class="card-body">
-						    <h5 class="card-title title_card">Mỹ nữ Hàng Châu chuộng mốt quần skinny jean</h5>
+						    <h5 class="card-title title_card">Vải mè là gì? Ưu nhược điểm, phân loại & ứng dụng</h5>
 						    <p class="card-text">
 						    	Đăng bởi :
 						    	<span>
@@ -229,7 +229,7 @@
 						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
-						    	Hot girl Hàng Châu chuộng mốt skinny jean "siêu bó", tạo cảm giác như "dính liền" trên da mà tôn dáng hiệu quả...
+						    	Trong các loại vải thun thì vải mè mang lại tính thẩm mỹ cao cho người sử dụng. Loại vải này được ứng dụng trong nhiều lĩnh vực khác nhau ...
 						    </p>
 						    <a href="#" class="btn btn-primary">Chi Tiết</a>
 					  </div>
@@ -237,13 +237,13 @@
 	    		</div>
 	    		<div class="item item_cardtintuc">
 	    			<div class="card card_tintuc" >
-	  					<img src="public/images/duuyen.jpg" class="card-img-top img_tintuc" alt="...">
+	  					<img src="public/images/tintuc9.png" class="card-img-top img_tintuc" alt="...">
 	  					<div class="day_tintuc">
-	  						<span>24 <br> TH8</span>
+	  						<span>16 <br> T11</span>
 	  						
 	  					</div>
   						<div class="card-body">
-						    <h5 class="card-title title_card">Bị thắc mắc về trang phục,tình cũ Đạt G giải thích gây sốc</h5>
+						    <h5 class="card-title title_card">Vải chiffon là gì? Tất cả thông tin cần biết</h5>
 						    <p class="card-text">
 						    	Đăng bởi :
 						    	<span>
@@ -255,7 +255,7 @@
 						    	Bảo Cầm
 						    </p>
 						    <p class="card-text">
-						    	Du Uyên sinh năm 1993,  quê Thanh Hóa, nổi tiếng trong làng nhạc Việt với những ca khúc kết hợp với bạn trai cũ - Đạt G: Buông bàn tay thật nhanh, Về, Gói xôi vội và Đừng lo...
+						    	Trong ngành may mặc có rất nhiều các loại vải khác nhau. Một trong số những loại vải được sử dụng nhiều nhất phải kể đến vải chiffon...
 						    </p>
 						    <a href="#" class="btn btn-primary">Chi Tiết</a>
 					  </div>

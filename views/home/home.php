@@ -11,6 +11,8 @@
 		            		<div class="owl-carousel owl-carousel-quangcao owl-theme">
 							    <div class="item item_slidequangcao"><img src="public/images/quangcao1.jpg"  alt=""></div>
 							    <div class="item item_slidequangcao"><img src="public/images/quangcao2.jpg"  alt=""></div>
+									<div class="item item_slidequangcao"><img src="public/images/quangcao3.jpg" alt=""></div>
+                    <div class="item item_slidequangcao"><img src="public/images/quangcao4.jpg" alt=""></div>
 							</div>
 			            </div>
 		       	</div>
@@ -22,10 +24,10 @@
          	<div class="container">
         	<!-- Title -->
                 <div class="title-wrapper  woodmart-title-color-default woodmart-title-style-default woodmart-title-width-100 text-center woodmart-title-size-medium ">
-                    <div class="liner-continer">
-                    	<!-- <span class="left-line"></span> -->
+                    <div class="liner-continer" >
+                    	<span class="left-line"></span>
                     	<h4 class="wle-upper woodmart-title-container title  woodmart-font-weight-">Sản phẩm mới</h4>
-                    	<!-- <span class="right-line"></span> -->
+                    	<span class="right-line"></span>
                     </div>
                 </div>
     		</div>
@@ -326,7 +328,7 @@
 								    	Bảo Cầm
 								    </p>
 								    <p class="card-text">
-								    	V ải Tweed là một chất liệu thời trang cổ điển đã xuất hiện và duy trì sức hút qua nhiều thế kỷ. Điều gì khiến vải Tweed trở thành biểu tượng của sự mạnh mẽ và sang trọng?...
+								    	Vải Tweed là một chất liệu thời trang cổ điển đã xuất hiện và duy trì sức hút qua nhiều thế kỷ. Điều gì khiến vải Tweed trở thành biểu tượng của sự sang trọng?...
 								    </p>
 								    <a href="#" class="btn btn-primary">Chi Tiết</a>
 							  </div>
